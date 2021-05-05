@@ -5,1741 +5,797 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Pool__47, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__30, server: 103.39.132.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool__134, server: 66.115.175.40, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇬🇧GB_1499, server: 89.238.130.251, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__141, server: 98.142.220.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3788, server: 156.146.62.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__145, server: 156.146.33.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__165, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: Pool__106, server: 37.120.221.5, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: Pool__135, server: 154.16.171.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__63, server: 138.199.19.177, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__131, server: 66.115.175.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool__67, server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__138, server: 199.36.221.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__44, server: 66.115.147.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__13, server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🏁, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇮🇳IN_1465, server: 103.39.132.189, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
   - {name: Pool_🇬🇧GB_1567, server: 89.238.130.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__78, server: 217.138.207.243, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__46, server: 66.115.147.67, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_430, server: 156.146.62.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 Pool_🇦🇺AU_175, server: 180.149.228.27, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool__137, server: 154.16.171.213, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__53, server: 66.115.147.69, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__48, server: 66.115.147.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸, server: 66.115.175.40, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: Pool_, server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇦🇺 Pool_🇦🇺AU_182, server: 45.125.247.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1974, server: 194.37.98.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇸🇰SK_2118, server: 37.120.221.5, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 Pool_🇺🇸US_385, server: 156.146.62.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇮🇳IN_1431, server: 103.108.117.116, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 🇦🇺 Pool_🇦🇺AU_254, server: 180.149.228.27, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: Pool__59, server: 66.115.182.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_4477, server: 104.200.131.233, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_🇳🇿NZ_2744, server: 180.149.231.13, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__68, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 Pool_🇦🇺AU_229, server: 180.149.228.27, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇦🇺 Pool_🇦🇺AU_127, server: 180.149.228.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__54, server: 107.174.20.134, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: Pool__164, server: 156.146.33.79, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__43, server: 66.115.147.84, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇳🇿NZ_2718, server: 180.149.231.3, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: Pool_ 2, server: 180.149.231.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__155, server: 193.29.107.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__122, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__21, server: 37.120.194.165, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool__20, server: 37.120.194.99, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇦🇺 Pool_🇦🇺AU_222, server: 180.149.228.147, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__74, server: 37.120.194.109, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_4122, server: 173.237.207.13, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_423, server: 66.115.182.72, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_4462, server: 173.237.207.13, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__61, server: 66.115.147.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__45, server: 66.115.147.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇳🇿NZ_2737, server: 180.149.231.13, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__65, server: 45.130.137.14, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇦🇺 Pool_🇦🇺AU_176, server: 180.149.228.27, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇦🇺 Pool_🇦🇺AU_110, server: 180.149.228.27, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇦🇺 Pool_🇦🇺AU_174, server: 180.149.228.27, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__49, server: 192.154.255.52, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: Pool__56, server: 64.44.42.196, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__123, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_ 3, server: 180.149.231.3, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
-  - {name: Pool_ 4, server: 180.149.231.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__69, server: 2.58.46.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 Pool_🇦🇺AU_143, server: 180.149.228.27, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_ 5, server: 180.149.231.3, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇦🇺 Pool_🇦🇺AU_239, server: 180.149.228.27, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇦🇺 Pool_🇦🇺AU_187, server: 45.125.247.155, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 Pool_🇦🇺AU_197, server: 180.149.228.27, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: Pool__18, server: 37.120.194.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_ 6, server: 45.125.247.155, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__24, server: 84.247.51.253, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_387, server: 192.40.59.227, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_🏁ZZ_4675, server: 138.199.19.139, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🏁ZZ_463, server: 138.199.19.186, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_ 7, server: 180.149.231.3, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: Pool_🇳🇿NZ_2741, server: 180.149.231.45, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__71, server: 37.120.194.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__72, server: 37.120.194.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: _100, server: 180.149.231.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_ 8, server: 180.149.231.45, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool__41, server: 198.147.22.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇬🇧GB_276, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__19, server: 37.120.194.165, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇵🇱PL_2801, server: 5.133.14.196, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_359, server: 107.174.20.130, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__152, server: 193.29.107.125, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__70, server: 37.120.194.109, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_ 9, server: 180.149.231.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ 10, server: 180.149.231.3, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool__15, server: 45.134.224.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__39, server: 184.170.250.154, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇸 Pool_🇺🇸US_3359, server: 155.254.29.165, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool__154, server: 209.216.92.3, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool__51, server: 66.115.147.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_411, server: 104.200.131.233, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool__14, server: 45.134.224.10, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇩🇪 Pool_🇩🇪DE_868, server: 45.134.224.15, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇦🇺 Pool_🇦🇺AU_294, server: 180.149.228.27, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 Pool_🇷🇴RO_327, server: 89.45.7.53, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__57, server: 198.147.22.83, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3828, server: 155.254.29.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 Pool_🇷🇴RO_2929, server: 194.110.115.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool__17, server: 45.134.224.18, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__133, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇷🇴 Pool_🇷🇴RO_3073, server: 193.29.106.197, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__159, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: Pool__153, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇷🇴 Pool_🇷🇴RO_3067, server: 139.28.176.53, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ 11, server: 180.149.231.45, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool__16, server: 176.227.241.29, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_ 12, server: 180.149.231.3, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Pool__88, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__26, server: 185.108.106.106, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3721, server: 64.44.42.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇱🇹LT_2375, server: 194.41.112.9, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__52, server: 66.115.147.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_384, server: 104.200.131.233, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool_🇳🇿NZ_2706, server: 180.149.231.45, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
-  - {name: 🇺🇸 Pool_🇺🇸US_3567, server: 155.254.29.165, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: Pool__66, server: 45.130.137.3, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__96, server: 193.29.107.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: GB_1754, server: 195.12.49.82, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CA_524, server: 68.71.244.208, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Pool_🇺🇸US_4196, server: 64.44.42.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_🇦🇱AL_41, server: 31.171.154.219, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇭🇷HR_295, server: 176.222.34.113, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇫🇷 Pool_🇫🇷FR_253, server: 185.108.106.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__64, server: 45.130.137.14, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: GB_1661, server: 195.12.49.82, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: GB_1706, server: 195.12.49.82, port: 807, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇷🇴 Pool_🇷🇴RO_2950, server: 193.29.107.101, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__86, server: 5.157.13.101, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: GB_1542, server: 195.12.49.82, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: GB_1541, server: 195.12.49.82, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool__90, server: 188.92.78.140, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: GB_1739, server: 195.12.49.82, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool__77, server: 185.108.106.188, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳, server: 103.39.132.189, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 Pool_🇺🇸US_2382, server: 66.115.147.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Pool_🇺🇸US_2747, server: 66.115.147.74, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: Pool_🇮🇳IN_1459, server: 103.108.117.116, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇨🇿, server: 89.187.168.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇩🇰DK_704, server: 37.120.194.91, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇪🇸, server: 37.120.148.229, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇰🇷 KR_1622 |11.55Mb, server: 52.79.228.10, port: 53691, type: vmess, uuid: 25b4eb9e-647c-4440-98b3-d21958e24577, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false}
+  - {name: Pool__27, server: 185.44.78.174, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Pool_🇺🇸US_2683, server: 66.115.175.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇸🇰, server: 37.120.221.5, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: 🇺🇸 2, server: 199.36.221.85, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇱🇻, server: 188.92.78.140, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: Pool_🇭🇷HR_1863, server: 176.222.34.113, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: GB_1651, server: 195.12.49.82, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool__146, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__87, server: 5.157.13.99, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇷🇴 Pool_🇷🇴RO_326, server: 193.29.106.59, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__93, server: 185.134.23.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 🇺🇸 Pool_🇺🇸US_4474, server: 173.237.207.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__126, server: 172.98.75.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_4530, server: 64.44.42.164, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool_ 13, server: 180.149.231.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_392, server: 143.244.57.106, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3762, server: 64.44.42.164, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 Pool_🇺🇸US_3659, server: 64.44.42.164, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN}
-  - {name: 🇫🇷 Pool_🇫🇷FR_1472, server: 185.108.106.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__81, server: 185.134.23.40, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇺🇸 Pool_🇺🇸US_4491, server: 64.44.42.164, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_366, server: 64.44.42.164, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_ 14, server: 154.16.93.51, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool_🇱🇹LT_2377, server: 194.41.112.9, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
-  - {name: Pool_🇫🇮FI_1183, server: 196.244.191.93, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇱🇹LT_2352, server: 194.41.112.9, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: Pool__89, server: 188.92.78.152, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3430, server: 64.44.42.164, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 Pool_🇺🇸US_3977, server: 64.44.42.164, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: Pool__82, server: 37.10.114.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_ 15, server: 31.171.153.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3399, server: 155.254.29.165, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Pool_🇺🇸US_373, server: 143.244.42.96, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇱🇹LT_308, server: 194.41.112.9, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool_🇫🇮FI_1168, server: 196.244.191.93, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ 16, server: 31.171.153.131, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇦🇱AL_35, server: 31.171.154.219, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool_🇱🇻LV_2455, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__28, server: 185.44.78.174, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: CA_570, server: 72.140.224.197, port: 808, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: CA_494, server: 72.140.224.195, port: 803, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool__150, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_4500, server: 64.44.42.164, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
+  - {name: 🇺🇸 3, server: 192.40.59.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Relay_ | 4.88Mb, server: azhk.jiasu1.xyz, port: 10003, type: vmess, uuid: 484f2569-13e5-4945-ab46-7f63b4db8088, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /hongyun, ws-headers: {Host: bing.com}}
+  - {name: 🇺🇸 Pool_🇺🇸US_2622, server: 107.174.20.130, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇦🇺 Pool_🇦🇺AU_175, server: 180.149.228.27, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇩🇪, server: 45.134.224.3, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇷, server: 217.138.207.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 4, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 5, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1996, server: 194.37.98.211, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇮🇳 2, server: 103.39.132.189, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Pool_🇺🇸US_2770, server: 154.16.171.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇵🇱PL_2801, server: 5.133.14.196, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 6, server: 66.115.147.74, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇦🇺, server: 45.130.137.14, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 7, server: 104.200.131.233, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: Pool_ 2, server: 180.149.231.3, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3}
+  - {name: Pool_🇫🇮FI_915, server: 196.244.191.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool__36, server: 79.110.54.131, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: Pool_🇮🇳IN_1457, server: 103.39.132.189, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: Pool__29, server: 185.44.76.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_372, server: 64.44.42.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool__162, server: 192.40.59.229, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇫🇮FI_1185, server: 196.244.191.93, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool__83, server: 37.10.114.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_🇱🇹LT_2369, server: 194.41.112.9, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_🇱🇻LV_2456, server: 188.92.78.203, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: Pool_ 3, server: 180.149.231.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 8, server: 199.10.64.133, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇮🇳 3, server: 103.39.132.189, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 9, server: 173.237.207.36, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 10, server: 192.40.59.227, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇦🇺 Pool_🇦🇺AU_275, server: 45.130.137.3, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: Pool_🇳🇿NZ_1846, server: 180.149.231.13, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool__120, server: 5.157.13.101, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1994, server: 194.37.98.211, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇫🇷 Pool_🇫🇷FR_253, server: 185.108.106.26, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴, server: 193.29.107.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 11, server: 184.170.250.154, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1951, server: 86.106.137.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇩🇪 Pool_🇩🇪DE_638, server: 45.134.224.3, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇱🇻LV_1662, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 Pool_🇺🇸US_2817, server: 98.142.220.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Pool_🇺🇸US_2621, server: 64.44.42.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool__46, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇫🇷 Pool_🇫🇷FR_1472, server: 185.108.106.26, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: Pool_🇦🇱AL_41, server: 31.171.154.219, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 Pool_🇺🇸US_2651, server: 66.115.147.84, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇰, server: 2.58.46.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇫🇮, server: 196.244.191.35, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇷🇴 2, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: 🇨🇿 2, server: 89.187.168.41, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 12, server: 104.200.131.233, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: Pool__105, server: 79.110.54.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: Pool_ 4, server: 180.149.231.3, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇩🇪 Pool_🇩🇪DE_629, server: 45.134.224.10, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇦🇺 Pool_🇦🇺AU_163, server: 180.149.228.27, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇮🇩ID_1385, server: 103.120.66.229, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: Pool_🇬🇧GB_1275, server: 185.134.23.40, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool__138, server: 89.187.168.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 13, server: 66.115.147.69, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇸 14, server: 173.237.207.13, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 Pool_🇺🇸US_2302, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 15, server: 107.174.20.134, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap}
+  - {name: Pool__109, server: 194.37.98.211, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 Pool_🇹🇼TW_2125, server: 2.58.242.43, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US}
+  - {name: Pool__159, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇫🇷 Pool_🇫🇷FR_1077, server: 185.108.106.188, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇩🇪 Pool_🇩🇪DE_657, server: 45.134.224.15, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇱🇹LT_1623, server: 194.41.112.9, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇺🇸 Pool_🇺🇸US_2619, server: 107.174.20.134, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 Pool_🇺🇸US_4196, server: 64.44.42.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 Pool_🇺🇸US_4500, server: 64.44.42.164, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn}
   - {name: Pool__94, server: 209.216.92.3, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name: Pool_🏁ZZ_459, server: 103.156.51.68, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇭🇰 HK_1856 |26.16Mb, server: 47.240.91.209, port: 16493, type: vmess, uuid: 4228fb0c-f2f0-4825-9076-ea9707179d9f, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false}
-  - {name: Pool__33, server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__79, server: 217.138.207.243, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: Pool__128, server: 207.244.127.118, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: AE_13, server: 217.138.193.10, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: Pool__50, server: 207.244.67.147, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: Pool__129, server: 207.244.127.118, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇸 Pool_🇺🇸US_4216, server: 192.40.59.227, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: AE_04, server: 217.138.193.10, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
-  - {name: 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb, server: hk178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /ray, ws-headers: {Host: hk178.mars6666.com}}
-  - {name: Pool__91, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 US_4529 |24.65Mb, server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: 🇺🇸 Pool_🇺🇸US_3456, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇫🇷 Pool_🇫🇷FR_254, server: 185.108.106.184, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_4203, server: 104.244.210.117, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__31, server: 89.46.223.237, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__84, server: 185.108.105.182, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__160, server: 207.244.84.58, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_3367, server: 172.93.146.212, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇺🇸 Pool_🇺🇸US_4134, server: 64.44.42.164, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: Pool__132, server: 185.124.240.153, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇿🇦 Pool_🇿🇦ZA_4633, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool_ 17, server: 154.16.93.51, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool_ 18, server: 207.244.67.149, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇸 Pool_🇺🇸US_357, server: 173.237.207.44, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: Pool__127, server: 143.244.57.91, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
-  - {name: 🇺🇸 Pool_🇺🇸US_419, server: 104.244.210.123, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 Pool_🇺🇸US_3739, server: 172.93.146.212, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: Pool__124, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool_ 19, server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: Pool_🇬🇧GB_1268, server: 37.10.114.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇷🇴 Pool_🇷🇴RO_1992, server: 193.29.107.91, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Pool__47
-      - Pool__30
-      - Pool__134
-      - Pool_🇬🇧GB_1499
-      - Pool__141
-      - 🇺🇸 Pool_🇺🇸US_3788
-      - Pool__145
-      - Pool_
-      - Pool__165
-      - Pool__106
-      - Pool__135
-      - Pool__63
-      - Pool__131
-      - Pool__67
-      - Pool__138
-      - Pool__44
-      - Pool__13
+      - 🏁
+      - Pool_🇮🇳IN_1465
       - Pool_🇬🇧GB_1567
-      - Pool__78
-      - Pool__46
-      - 🇺🇸 Pool_🇺🇸US_430
-      - 🇦🇺 Pool_🇦🇺AU_175
-      - Pool__137
-      - Pool__53
-      - Pool__48
+      - 🇺🇸
+      - Pool_
+      - 🇦🇺 Pool_🇦🇺AU_182
+      - 🇷🇴 Pool_🇷🇴RO_1974
+      - Pool_🇸🇰SK_2118
+      - 🇺🇸 Pool_🇺🇸US_385
+      - Pool_🇮🇳IN_1431
       - 🇦🇺 Pool_🇦🇺AU_254
-      - Pool__59
-      - 🇺🇸 Pool_🇺🇸US_4477
-      - Pool_🇳🇿NZ_2744
-      - Pool__68
-      - 🇦🇺 Pool_🇦🇺AU_229
-      - 🇦🇺 Pool_🇦🇺AU_127
-      - Pool__54
-      - Pool__164
-      - Pool__43
-      - Pool_🇳🇿NZ_2718
-      - Pool_ 2
-      - Pool__155
-      - Pool__122
-      - Pool__21
-      - Pool__20
-      - 🇦🇺 Pool_🇦🇺AU_222
-      - Pool__74
-      - 🇺🇸 Pool_🇺🇸US_4122
-      - 🇺🇸 Pool_🇺🇸US_423
-      - 🇺🇸 Pool_🇺🇸US_4462
-      - Pool__61
-      - Pool__45
-      - Pool_🇳🇿NZ_2737
-      - Pool__65
-      - 🇦🇺 Pool_🇦🇺AU_176
-      - 🇦🇺 Pool_🇦🇺AU_110
-      - 🇦🇺 Pool_🇦🇺AU_174
-      - Pool__49
-      - Pool__56
-      - Pool__123
-      - Pool_ 3
-      - Pool_ 4
-      - Pool__69
-      - 🇦🇺 Pool_🇦🇺AU_143
-      - Pool_ 5
-      - 🇦🇺 Pool_🇦🇺AU_239
-      - 🇦🇺 Pool_🇦🇺AU_187
-      - 🇦🇺 Pool_🇦🇺AU_197
-      - Pool__18
-      - Pool_ 6
-      - Pool__24
-      - 🇺🇸 Pool_🇺🇸US_387
-      - Pool_🏁ZZ_4675
-      - Pool_🏁ZZ_463
-      - Pool_ 7
-      - Pool_🇳🇿NZ_2741
-      - Pool__71
-      - Pool__72
-      - _100
-      - Pool_ 8
-      - Pool__41
-      - Pool_🇬🇧GB_276
-      - Pool__19
-      - Pool_🇵🇱PL_2801
-      - 🇺🇸 Pool_🇺🇸US_359
-      - Pool__152
-      - Pool__70
-      - Pool_ 9
-      - Pool_ 10
-      - Pool__15
-      - Pool__39
-      - 🇺🇸 Pool_🇺🇸US_3359
-      - Pool__154
-      - Pool__51
-      - 🇺🇸 Pool_🇺🇸US_411
-      - Pool__14
-      - 🇩🇪 Pool_🇩🇪DE_868
-      - 🇦🇺 Pool_🇦🇺AU_294
-      - 🇷🇴 Pool_🇷🇴RO_327
-      - Pool__57
-      - 🇺🇸 Pool_🇺🇸US_3828
-      - 🇷🇴 Pool_🇷🇴RO_2929
-      - Pool__17
-      - Pool__133
-      - 🇷🇴 Pool_🇷🇴RO_3073
-      - Pool__159
-      - Pool__153
-      - 🇷🇴 Pool_🇷🇴RO_3067
-      - Pool_ 11
-      - Pool__16
-      - Pool_ 12
-      - Pool__88
-      - Pool__26
-      - 🇺🇸 Pool_🇺🇸US_3721
-      - Pool_🇱🇹LT_2375
-      - Pool__52
-      - 🇺🇸 Pool_🇺🇸US_384
-      - Pool_🇳🇿NZ_2706
-      - 🇺🇸 Pool_🇺🇸US_3567
-      - Pool__66
-      - Pool__96
-      - GB_1754
-      - CA_524
-      - 🇺🇸 Pool_🇺🇸US_4196
-      - Pool_🇦🇱AL_41
-      - Pool_🇭🇷HR_295
-      - 🇫🇷 Pool_🇫🇷FR_253
-      - Pool__64
-      - GB_1661
-      - GB_1706
-      - 🇷🇴 Pool_🇷🇴RO_2950
-      - Pool__86
-      - GB_1542
-      - GB_1541
-      - Pool__90
-      - GB_1739
-      - Pool__77
+      - 🇮🇳
+      - 🇺🇸 Pool_🇺🇸US_2382
+      - 🇺🇸 Pool_🇺🇸US_2747
+      - Pool_🇮🇳IN_1459
+      - 🇨🇿
+      - Pool_🇩🇰DK_704
+      - 🇪🇸
+      - 🇰🇷 KR_1622 |11.55Mb
+      - Pool__27
+      - 🇺🇸 Pool_🇺🇸US_2683
+      - 🇸🇰
+      - 🇺🇸 2
+      - 🇱🇻
       - Pool_🇭🇷HR_1863
-      - GB_1651
-      - Pool__146
-      - Pool__87
-      - 🇷🇴 Pool_🇷🇴RO_326
-      - Pool__93
-      - 🇺🇸 Pool_🇺🇸US_4474
-      - Pool__126
-      - 🇺🇸 Pool_🇺🇸US_4530
-      - Pool_ 13
-      - 🇺🇸 Pool_🇺🇸US_392
-      - 🇺🇸 Pool_🇺🇸US_3762
-      - 🇺🇸 Pool_🇺🇸US_3659
-      - 🇫🇷 Pool_🇫🇷FR_1472
-      - Pool__81
-      - 🇺🇸 Pool_🇺🇸US_4491
-      - 🇺🇸 Pool_🇺🇸US_366
-      - Pool_ 14
-      - Pool_🇱🇹LT_2377
-      - Pool_🇫🇮FI_1183
-      - Pool_🇱🇹LT_2352
-      - Pool__89
-      - 🇺🇸 Pool_🇺🇸US_3430
-      - 🇺🇸 Pool_🇺🇸US_3977
-      - Pool__82
-      - Pool_ 15
-      - 🇺🇸 Pool_🇺🇸US_3399
-      - 🇺🇸 Pool_🇺🇸US_373
-      - Pool_🇱🇹LT_308
-      - Pool_🇫🇮FI_1168
-      - Pool_ 16
-      - Pool_🇦🇱AL_35
-      - Pool_🇱🇻LV_2455
-      - Pool__28
-      - CA_570
-      - CA_494
-      - Pool__150
-      - 🇺🇸 Pool_🇺🇸US_4500
+      - 🇺🇸 3
+      - Relay_ | 4.88Mb
+      - 🇺🇸 Pool_🇺🇸US_2622
+      - 🇦🇺 Pool_🇦🇺AU_175
+      - 🇩🇪
+      - 🇫🇷
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - 🇷🇴 Pool_🇷🇴RO_1996
+      - 🇮🇳 2
+      - 🇺🇸 Pool_🇺🇸US_2770
+      - Pool_🇵🇱PL_2801
+      - 🇺🇸 6
+      - 🇦🇺
+      - 🇺🇸 7
+      - Pool_ 2
+      - Pool_🇫🇮FI_915
+      - Pool__36
+      - Pool_🇮🇳IN_1457
       - Pool__29
-      - 🇺🇸 Pool_🇺🇸US_372
-      - Pool__162
-      - Pool_🇫🇮FI_1185
-      - Pool__83
-      - Pool_🇱🇹LT_2369
-      - Pool_🇱🇻LV_2456
+      - Pool_ 3
+      - 🇺🇸 8
+      - 🇮🇳 3
+      - 🇺🇸 9
+      - 🇺🇸 10
+      - 🇦🇺 Pool_🇦🇺AU_275
+      - Pool_🇳🇿NZ_1846
+      - Pool__120
+      - 🇷🇴 Pool_🇷🇴RO_1994
+      - 🇫🇷 Pool_🇫🇷FR_253
+      - 🇷🇴
+      - 🇺🇸 11
+      - 🇷🇴 Pool_🇷🇴RO_1951
+      - 🇩🇪 Pool_🇩🇪DE_638
+      - Pool_🇱🇻LV_1662
+      - 🇺🇸 Pool_🇺🇸US_2817
+      - 🇺🇸 Pool_🇺🇸US_2621
+      - Pool__46
+      - 🇫🇷 Pool_🇫🇷FR_1472
+      - Pool_🇦🇱AL_41
+      - 🇺🇸 Pool_🇺🇸US_2651
+      - 🇩🇰
+      - 🇫🇮
+      - 🇷🇴 2
+      - 🇨🇿 2
+      - 🇺🇸 12
+      - Pool__105
+      - Pool_ 4
+      - 🇩🇪 Pool_🇩🇪DE_629
+      - 🇦🇺 Pool_🇦🇺AU_163
+      - Pool_🇮🇩ID_1385
+      - Pool_🇬🇧GB_1275
+      - Pool__138
+      - 🇺🇸 13
+      - 🇺🇸 14
+      - 🇺🇸 Pool_🇺🇸US_2302
+      - 🇺🇸 15
+      - Pool__109
+      - 🇨🇳 Pool_🇹🇼TW_2125
+      - Pool__159
+      - 🇫🇷 Pool_🇫🇷FR_1077
+      - 🇩🇪 Pool_🇩🇪DE_657
+      - Pool_🇱🇹LT_1623
+      - 🇺🇸 Pool_🇺🇸US_2619
+      - 🇺🇸 Pool_🇺🇸US_4196
+      - 🇺🇸 Pool_🇺🇸US_4500
       - Pool__94
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb
-      - Pool_🏁ZZ_459
-      - 🇭🇰 HK_1856 |26.16Mb
-      - Pool__33
-      - Pool__79
-      - Pool__128
-      - AE_13
-      - Pool__50
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb
-      - Pool__129
-      - 🇺🇸 Pool_🇺🇸US_4216
-      - AE_04
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb
-      - Pool__91
-      - 🇺🇸 US_4529 |24.65Mb
-      - 🇺🇸 Pool_🇺🇸US_3456
-      - 🇫🇷 Pool_🇫🇷FR_254
-      - 🇺🇸 Pool_🇺🇸US_4203
-      - Pool__31
-      - Pool__84
-      - Pool__160
-      - 🇺🇸 Pool_🇺🇸US_3367
-      - 🇺🇸 Pool_🇺🇸US_4134
-      - Pool__132
-      - 🇿🇦 Pool_🇿🇦ZA_4633
-      - Pool_ 17
-      - Pool_ 18
-      - 🇺🇸 Pool_🇺🇸US_357
-      - Pool__127
-      - 🇺🇸 Pool_🇺🇸US_419
-      - 🇺🇸 Pool_🇺🇸US_3739
-      - Pool__124
-      - Pool_ 19
+      - Pool_🇬🇧GB_1268
+      - 🇷🇴 Pool_🇷🇴RO_1992
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Pool__47
-      - Pool__30
-      - Pool__134
-      - Pool_🇬🇧GB_1499
-      - Pool__141
-      - 🇺🇸 Pool_🇺🇸US_3788
-      - Pool__145
-      - Pool_
-      - Pool__165
-      - Pool__106
-      - Pool__135
-      - Pool__63
-      - Pool__131
-      - Pool__67
-      - Pool__138
-      - Pool__44
-      - Pool__13
+      - 🏁
+      - Pool_🇮🇳IN_1465
       - Pool_🇬🇧GB_1567
-      - Pool__78
-      - Pool__46
-      - 🇺🇸 Pool_🇺🇸US_430
-      - 🇦🇺 Pool_🇦🇺AU_175
-      - Pool__137
-      - Pool__53
-      - Pool__48
+      - 🇺🇸
+      - Pool_
+      - 🇦🇺 Pool_🇦🇺AU_182
+      - 🇷🇴 Pool_🇷🇴RO_1974
+      - Pool_🇸🇰SK_2118
+      - 🇺🇸 Pool_🇺🇸US_385
+      - Pool_🇮🇳IN_1431
       - 🇦🇺 Pool_🇦🇺AU_254
-      - Pool__59
-      - 🇺🇸 Pool_🇺🇸US_4477
-      - Pool_🇳🇿NZ_2744
-      - Pool__68
-      - 🇦🇺 Pool_🇦🇺AU_229
-      - 🇦🇺 Pool_🇦🇺AU_127
-      - Pool__54
-      - Pool__164
-      - Pool__43
-      - Pool_🇳🇿NZ_2718
-      - Pool_ 2
-      - Pool__155
-      - Pool__122
-      - Pool__21
-      - Pool__20
-      - 🇦🇺 Pool_🇦🇺AU_222
-      - Pool__74
-      - 🇺🇸 Pool_🇺🇸US_4122
-      - 🇺🇸 Pool_🇺🇸US_423
-      - 🇺🇸 Pool_🇺🇸US_4462
-      - Pool__61
-      - Pool__45
-      - Pool_🇳🇿NZ_2737
-      - Pool__65
-      - 🇦🇺 Pool_🇦🇺AU_176
-      - 🇦🇺 Pool_🇦🇺AU_110
-      - 🇦🇺 Pool_🇦🇺AU_174
-      - Pool__49
-      - Pool__56
-      - Pool__123
-      - Pool_ 3
-      - Pool_ 4
-      - Pool__69
-      - 🇦🇺 Pool_🇦🇺AU_143
-      - Pool_ 5
-      - 🇦🇺 Pool_🇦🇺AU_239
-      - 🇦🇺 Pool_🇦🇺AU_187
-      - 🇦🇺 Pool_🇦🇺AU_197
-      - Pool__18
-      - Pool_ 6
-      - Pool__24
-      - 🇺🇸 Pool_🇺🇸US_387
-      - Pool_🏁ZZ_4675
-      - Pool_🏁ZZ_463
-      - Pool_ 7
-      - Pool_🇳🇿NZ_2741
-      - Pool__71
-      - Pool__72
-      - _100
-      - Pool_ 8
-      - Pool__41
-      - Pool_🇬🇧GB_276
-      - Pool__19
-      - Pool_🇵🇱PL_2801
-      - 🇺🇸 Pool_🇺🇸US_359
-      - Pool__152
-      - Pool__70
-      - Pool_ 9
-      - Pool_ 10
-      - Pool__15
-      - Pool__39
-      - 🇺🇸 Pool_🇺🇸US_3359
-      - Pool__154
-      - Pool__51
-      - 🇺🇸 Pool_🇺🇸US_411
-      - Pool__14
-      - 🇩🇪 Pool_🇩🇪DE_868
-      - 🇦🇺 Pool_🇦🇺AU_294
-      - 🇷🇴 Pool_🇷🇴RO_327
-      - Pool__57
-      - 🇺🇸 Pool_🇺🇸US_3828
-      - 🇷🇴 Pool_🇷🇴RO_2929
-      - Pool__17
-      - Pool__133
-      - 🇷🇴 Pool_🇷🇴RO_3073
-      - Pool__159
-      - Pool__153
-      - 🇷🇴 Pool_🇷🇴RO_3067
-      - Pool_ 11
-      - Pool__16
-      - Pool_ 12
-      - Pool__88
-      - Pool__26
-      - 🇺🇸 Pool_🇺🇸US_3721
-      - Pool_🇱🇹LT_2375
-      - Pool__52
-      - 🇺🇸 Pool_🇺🇸US_384
-      - Pool_🇳🇿NZ_2706
-      - 🇺🇸 Pool_🇺🇸US_3567
-      - Pool__66
-      - Pool__96
-      - GB_1754
-      - CA_524
-      - 🇺🇸 Pool_🇺🇸US_4196
-      - Pool_🇦🇱AL_41
-      - Pool_🇭🇷HR_295
-      - 🇫🇷 Pool_🇫🇷FR_253
-      - Pool__64
-      - GB_1661
-      - GB_1706
-      - 🇷🇴 Pool_🇷🇴RO_2950
-      - Pool__86
-      - GB_1542
-      - GB_1541
-      - Pool__90
-      - GB_1739
-      - Pool__77
+      - 🇮🇳
+      - 🇺🇸 Pool_🇺🇸US_2382
+      - 🇺🇸 Pool_🇺🇸US_2747
+      - Pool_🇮🇳IN_1459
+      - 🇨🇿
+      - Pool_🇩🇰DK_704
+      - 🇪🇸
+      - 🇰🇷 KR_1622 |11.55Mb
+      - Pool__27
+      - 🇺🇸 Pool_🇺🇸US_2683
+      - 🇸🇰
+      - 🇺🇸 2
+      - 🇱🇻
       - Pool_🇭🇷HR_1863
-      - GB_1651
-      - Pool__146
-      - Pool__87
-      - 🇷🇴 Pool_🇷🇴RO_326
-      - Pool__93
-      - 🇺🇸 Pool_🇺🇸US_4474
-      - Pool__126
-      - 🇺🇸 Pool_🇺🇸US_4530
-      - Pool_ 13
-      - 🇺🇸 Pool_🇺🇸US_392
-      - 🇺🇸 Pool_🇺🇸US_3762
-      - 🇺🇸 Pool_🇺🇸US_3659
-      - 🇫🇷 Pool_🇫🇷FR_1472
-      - Pool__81
-      - 🇺🇸 Pool_🇺🇸US_4491
-      - 🇺🇸 Pool_🇺🇸US_366
-      - Pool_ 14
-      - Pool_🇱🇹LT_2377
-      - Pool_🇫🇮FI_1183
-      - Pool_🇱🇹LT_2352
-      - Pool__89
-      - 🇺🇸 Pool_🇺🇸US_3430
-      - 🇺🇸 Pool_🇺🇸US_3977
-      - Pool__82
-      - Pool_ 15
-      - 🇺🇸 Pool_🇺🇸US_3399
-      - 🇺🇸 Pool_🇺🇸US_373
-      - Pool_🇱🇹LT_308
-      - Pool_🇫🇮FI_1168
-      - Pool_ 16
-      - Pool_🇦🇱AL_35
-      - Pool_🇱🇻LV_2455
-      - Pool__28
-      - CA_570
-      - CA_494
-      - Pool__150
-      - 🇺🇸 Pool_🇺🇸US_4500
+      - 🇺🇸 3
+      - Relay_ | 4.88Mb
+      - 🇺🇸 Pool_🇺🇸US_2622
+      - 🇦🇺 Pool_🇦🇺AU_175
+      - 🇩🇪
+      - 🇫🇷
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - 🇷🇴 Pool_🇷🇴RO_1996
+      - 🇮🇳 2
+      - 🇺🇸 Pool_🇺🇸US_2770
+      - Pool_🇵🇱PL_2801
+      - 🇺🇸 6
+      - 🇦🇺
+      - 🇺🇸 7
+      - Pool_ 2
+      - Pool_🇫🇮FI_915
+      - Pool__36
+      - Pool_🇮🇳IN_1457
       - Pool__29
-      - 🇺🇸 Pool_🇺🇸US_372
-      - Pool__162
-      - Pool_🇫🇮FI_1185
-      - Pool__83
-      - Pool_🇱🇹LT_2369
-      - Pool_🇱🇻LV_2456
+      - Pool_ 3
+      - 🇺🇸 8
+      - 🇮🇳 3
+      - 🇺🇸 9
+      - 🇺🇸 10
+      - 🇦🇺 Pool_🇦🇺AU_275
+      - Pool_🇳🇿NZ_1846
+      - Pool__120
+      - 🇷🇴 Pool_🇷🇴RO_1994
+      - 🇫🇷 Pool_🇫🇷FR_253
+      - 🇷🇴
+      - 🇺🇸 11
+      - 🇷🇴 Pool_🇷🇴RO_1951
+      - 🇩🇪 Pool_🇩🇪DE_638
+      - Pool_🇱🇻LV_1662
+      - 🇺🇸 Pool_🇺🇸US_2817
+      - 🇺🇸 Pool_🇺🇸US_2621
+      - Pool__46
+      - 🇫🇷 Pool_🇫🇷FR_1472
+      - Pool_🇦🇱AL_41
+      - 🇺🇸 Pool_🇺🇸US_2651
+      - 🇩🇰
+      - 🇫🇮
+      - 🇷🇴 2
+      - 🇨🇿 2
+      - 🇺🇸 12
+      - Pool__105
+      - Pool_ 4
+      - 🇩🇪 Pool_🇩🇪DE_629
+      - 🇦🇺 Pool_🇦🇺AU_163
+      - Pool_🇮🇩ID_1385
+      - Pool_🇬🇧GB_1275
+      - Pool__138
+      - 🇺🇸 13
+      - 🇺🇸 14
+      - 🇺🇸 Pool_🇺🇸US_2302
+      - 🇺🇸 15
+      - Pool__109
+      - 🇨🇳 Pool_🇹🇼TW_2125
+      - Pool__159
+      - 🇫🇷 Pool_🇫🇷FR_1077
+      - 🇩🇪 Pool_🇩🇪DE_657
+      - Pool_🇱🇹LT_1623
+      - 🇺🇸 Pool_🇺🇸US_2619
+      - 🇺🇸 Pool_🇺🇸US_4196
+      - 🇺🇸 Pool_🇺🇸US_4500
       - Pool__94
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb
-      - Pool_🏁ZZ_459
-      - 🇭🇰 HK_1856 |26.16Mb
-      - Pool__33
-      - Pool__79
-      - Pool__128
-      - AE_13
-      - Pool__50
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb
-      - Pool__129
-      - 🇺🇸 Pool_🇺🇸US_4216
-      - AE_04
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb
-      - Pool__91
-      - 🇺🇸 US_4529 |24.65Mb
-      - 🇺🇸 Pool_🇺🇸US_3456
-      - 🇫🇷 Pool_🇫🇷FR_254
-      - 🇺🇸 Pool_🇺🇸US_4203
-      - Pool__31
-      - Pool__84
-      - Pool__160
-      - 🇺🇸 Pool_🇺🇸US_3367
-      - 🇺🇸 Pool_🇺🇸US_4134
-      - Pool__132
-      - 🇿🇦 Pool_🇿🇦ZA_4633
-      - Pool_ 17
-      - Pool_ 18
-      - 🇺🇸 Pool_🇺🇸US_357
-      - Pool__127
-      - 🇺🇸 Pool_🇺🇸US_419
-      - 🇺🇸 Pool_🇺🇸US_3739
-      - Pool__124
-      - Pool_ 19
+      - Pool_🇬🇧GB_1268
+      - 🇷🇴 Pool_🇷🇴RO_1992
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Pool__47
-      - Pool__30
-      - Pool__134
-      - Pool_🇬🇧GB_1499
-      - Pool__141
-      - 🇺🇸 Pool_🇺🇸US_3788
-      - Pool__145
-      - Pool_
-      - Pool__165
-      - Pool__106
-      - Pool__135
-      - Pool__63
-      - Pool__131
-      - Pool__67
-      - Pool__138
-      - Pool__44
-      - Pool__13
+      - 🏁
+      - Pool_🇮🇳IN_1465
       - Pool_🇬🇧GB_1567
-      - Pool__78
-      - Pool__46
-      - 🇺🇸 Pool_🇺🇸US_430
-      - 🇦🇺 Pool_🇦🇺AU_175
-      - Pool__137
-      - Pool__53
-      - Pool__48
+      - 🇺🇸
+      - Pool_
+      - 🇦🇺 Pool_🇦🇺AU_182
+      - 🇷🇴 Pool_🇷🇴RO_1974
+      - Pool_🇸🇰SK_2118
+      - 🇺🇸 Pool_🇺🇸US_385
+      - Pool_🇮🇳IN_1431
       - 🇦🇺 Pool_🇦🇺AU_254
-      - Pool__59
-      - 🇺🇸 Pool_🇺🇸US_4477
-      - Pool_🇳🇿NZ_2744
-      - Pool__68
-      - 🇦🇺 Pool_🇦🇺AU_229
-      - 🇦🇺 Pool_🇦🇺AU_127
-      - Pool__54
-      - Pool__164
-      - Pool__43
-      - Pool_🇳🇿NZ_2718
-      - Pool_ 2
-      - Pool__155
-      - Pool__122
-      - Pool__21
-      - Pool__20
-      - 🇦🇺 Pool_🇦🇺AU_222
-      - Pool__74
-      - 🇺🇸 Pool_🇺🇸US_4122
-      - 🇺🇸 Pool_🇺🇸US_423
-      - 🇺🇸 Pool_🇺🇸US_4462
-      - Pool__61
-      - Pool__45
-      - Pool_🇳🇿NZ_2737
-      - Pool__65
-      - 🇦🇺 Pool_🇦🇺AU_176
-      - 🇦🇺 Pool_🇦🇺AU_110
-      - 🇦🇺 Pool_🇦🇺AU_174
-      - Pool__49
-      - Pool__56
-      - Pool__123
-      - Pool_ 3
-      - Pool_ 4
-      - Pool__69
-      - 🇦🇺 Pool_🇦🇺AU_143
-      - Pool_ 5
-      - 🇦🇺 Pool_🇦🇺AU_239
-      - 🇦🇺 Pool_🇦🇺AU_187
-      - 🇦🇺 Pool_🇦🇺AU_197
-      - Pool__18
-      - Pool_ 6
-      - Pool__24
-      - 🇺🇸 Pool_🇺🇸US_387
-      - Pool_🏁ZZ_4675
-      - Pool_🏁ZZ_463
-      - Pool_ 7
-      - Pool_🇳🇿NZ_2741
-      - Pool__71
-      - Pool__72
-      - _100
-      - Pool_ 8
-      - Pool__41
-      - Pool_🇬🇧GB_276
-      - Pool__19
-      - Pool_🇵🇱PL_2801
-      - 🇺🇸 Pool_🇺🇸US_359
-      - Pool__152
-      - Pool__70
-      - Pool_ 9
-      - Pool_ 10
-      - Pool__15
-      - Pool__39
-      - 🇺🇸 Pool_🇺🇸US_3359
-      - Pool__154
-      - Pool__51
-      - 🇺🇸 Pool_🇺🇸US_411
-      - Pool__14
-      - 🇩🇪 Pool_🇩🇪DE_868
-      - 🇦🇺 Pool_🇦🇺AU_294
-      - 🇷🇴 Pool_🇷🇴RO_327
-      - Pool__57
-      - 🇺🇸 Pool_🇺🇸US_3828
-      - 🇷🇴 Pool_🇷🇴RO_2929
-      - Pool__17
-      - Pool__133
-      - 🇷🇴 Pool_🇷🇴RO_3073
-      - Pool__159
-      - Pool__153
-      - 🇷🇴 Pool_🇷🇴RO_3067
-      - Pool_ 11
-      - Pool__16
-      - Pool_ 12
-      - Pool__88
-      - Pool__26
-      - 🇺🇸 Pool_🇺🇸US_3721
-      - Pool_🇱🇹LT_2375
-      - Pool__52
-      - 🇺🇸 Pool_🇺🇸US_384
-      - Pool_🇳🇿NZ_2706
-      - 🇺🇸 Pool_🇺🇸US_3567
-      - Pool__66
-      - Pool__96
-      - GB_1754
-      - CA_524
-      - 🇺🇸 Pool_🇺🇸US_4196
-      - Pool_🇦🇱AL_41
-      - Pool_🇭🇷HR_295
-      - 🇫🇷 Pool_🇫🇷FR_253
-      - Pool__64
-      - GB_1661
-      - GB_1706
-      - 🇷🇴 Pool_🇷🇴RO_2950
-      - Pool__86
-      - GB_1542
-      - GB_1541
-      - Pool__90
-      - GB_1739
-      - Pool__77
+      - 🇮🇳
+      - 🇺🇸 Pool_🇺🇸US_2382
+      - 🇺🇸 Pool_🇺🇸US_2747
+      - Pool_🇮🇳IN_1459
+      - 🇨🇿
+      - Pool_🇩🇰DK_704
+      - 🇪🇸
+      - 🇰🇷 KR_1622 |11.55Mb
+      - Pool__27
+      - 🇺🇸 Pool_🇺🇸US_2683
+      - 🇸🇰
+      - 🇺🇸 2
+      - 🇱🇻
       - Pool_🇭🇷HR_1863
-      - GB_1651
-      - Pool__146
-      - Pool__87
-      - 🇷🇴 Pool_🇷🇴RO_326
-      - Pool__93
-      - 🇺🇸 Pool_🇺🇸US_4474
-      - Pool__126
-      - 🇺🇸 Pool_🇺🇸US_4530
-      - Pool_ 13
-      - 🇺🇸 Pool_🇺🇸US_392
-      - 🇺🇸 Pool_🇺🇸US_3762
-      - 🇺🇸 Pool_🇺🇸US_3659
-      - 🇫🇷 Pool_🇫🇷FR_1472
-      - Pool__81
-      - 🇺🇸 Pool_🇺🇸US_4491
-      - 🇺🇸 Pool_🇺🇸US_366
-      - Pool_ 14
-      - Pool_🇱🇹LT_2377
-      - Pool_🇫🇮FI_1183
-      - Pool_🇱🇹LT_2352
-      - Pool__89
-      - 🇺🇸 Pool_🇺🇸US_3430
-      - 🇺🇸 Pool_🇺🇸US_3977
-      - Pool__82
-      - Pool_ 15
-      - 🇺🇸 Pool_🇺🇸US_3399
-      - 🇺🇸 Pool_🇺🇸US_373
-      - Pool_🇱🇹LT_308
-      - Pool_🇫🇮FI_1168
-      - Pool_ 16
-      - Pool_🇦🇱AL_35
-      - Pool_🇱🇻LV_2455
-      - Pool__28
-      - CA_570
-      - CA_494
-      - Pool__150
-      - 🇺🇸 Pool_🇺🇸US_4500
+      - 🇺🇸 3
+      - Relay_ | 4.88Mb
+      - 🇺🇸 Pool_🇺🇸US_2622
+      - 🇦🇺 Pool_🇦🇺AU_175
+      - 🇩🇪
+      - 🇫🇷
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - 🇷🇴 Pool_🇷🇴RO_1996
+      - 🇮🇳 2
+      - 🇺🇸 Pool_🇺🇸US_2770
+      - Pool_🇵🇱PL_2801
+      - 🇺🇸 6
+      - 🇦🇺
+      - 🇺🇸 7
+      - Pool_ 2
+      - Pool_🇫🇮FI_915
+      - Pool__36
+      - Pool_🇮🇳IN_1457
       - Pool__29
-      - 🇺🇸 Pool_🇺🇸US_372
-      - Pool__162
-      - Pool_🇫🇮FI_1185
-      - Pool__83
-      - Pool_🇱🇹LT_2369
-      - Pool_🇱🇻LV_2456
+      - Pool_ 3
+      - 🇺🇸 8
+      - 🇮🇳 3
+      - 🇺🇸 9
+      - 🇺🇸 10
+      - 🇦🇺 Pool_🇦🇺AU_275
+      - Pool_🇳🇿NZ_1846
+      - Pool__120
+      - 🇷🇴 Pool_🇷🇴RO_1994
+      - 🇫🇷 Pool_🇫🇷FR_253
+      - 🇷🇴
+      - 🇺🇸 11
+      - 🇷🇴 Pool_🇷🇴RO_1951
+      - 🇩🇪 Pool_🇩🇪DE_638
+      - Pool_🇱🇻LV_1662
+      - 🇺🇸 Pool_🇺🇸US_2817
+      - 🇺🇸 Pool_🇺🇸US_2621
+      - Pool__46
+      - 🇫🇷 Pool_🇫🇷FR_1472
+      - Pool_🇦🇱AL_41
+      - 🇺🇸 Pool_🇺🇸US_2651
+      - 🇩🇰
+      - 🇫🇮
+      - 🇷🇴 2
+      - 🇨🇿 2
+      - 🇺🇸 12
+      - Pool__105
+      - Pool_ 4
+      - 🇩🇪 Pool_🇩🇪DE_629
+      - 🇦🇺 Pool_🇦🇺AU_163
+      - Pool_🇮🇩ID_1385
+      - Pool_🇬🇧GB_1275
+      - Pool__138
+      - 🇺🇸 13
+      - 🇺🇸 14
+      - 🇺🇸 Pool_🇺🇸US_2302
+      - 🇺🇸 15
+      - Pool__109
+      - 🇨🇳 Pool_🇹🇼TW_2125
+      - Pool__159
+      - 🇫🇷 Pool_🇫🇷FR_1077
+      - 🇩🇪 Pool_🇩🇪DE_657
+      - Pool_🇱🇹LT_1623
+      - 🇺🇸 Pool_🇺🇸US_2619
+      - 🇺🇸 Pool_🇺🇸US_4196
+      - 🇺🇸 Pool_🇺🇸US_4500
       - Pool__94
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb
-      - Pool_🏁ZZ_459
-      - 🇭🇰 HK_1856 |26.16Mb
-      - Pool__33
-      - Pool__79
-      - Pool__128
-      - AE_13
-      - Pool__50
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb
-      - Pool__129
-      - 🇺🇸 Pool_🇺🇸US_4216
-      - AE_04
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb
-      - Pool__91
-      - 🇺🇸 US_4529 |24.65Mb
-      - 🇺🇸 Pool_🇺🇸US_3456
-      - 🇫🇷 Pool_🇫🇷FR_254
-      - 🇺🇸 Pool_🇺🇸US_4203
-      - Pool__31
-      - Pool__84
-      - Pool__160
-      - 🇺🇸 Pool_🇺🇸US_3367
-      - 🇺🇸 Pool_🇺🇸US_4134
-      - Pool__132
-      - 🇿🇦 Pool_🇿🇦ZA_4633
-      - Pool_ 17
-      - Pool_ 18
-      - 🇺🇸 Pool_🇺🇸US_357
-      - Pool__127
-      - 🇺🇸 Pool_🇺🇸US_419
-      - 🇺🇸 Pool_🇺🇸US_3739
-      - Pool__124
-      - Pool_ 19
+      - Pool_🇬🇧GB_1268
+      - 🇷🇴 Pool_🇷🇴RO_1992
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Pool__47
-      - Pool__30
-      - Pool__134
-      - Pool_🇬🇧GB_1499
-      - Pool__141
-      - 🇺🇸 Pool_🇺🇸US_3788
-      - Pool__145
-      - Pool_
-      - Pool__165
-      - Pool__106
-      - Pool__135
-      - Pool__63
-      - Pool__131
-      - Pool__67
-      - Pool__138
-      - Pool__44
-      - Pool__13
+      - 🏁
+      - Pool_🇮🇳IN_1465
       - Pool_🇬🇧GB_1567
-      - Pool__78
-      - Pool__46
-      - 🇺🇸 Pool_🇺🇸US_430
-      - 🇦🇺 Pool_🇦🇺AU_175
-      - Pool__137
-      - Pool__53
-      - Pool__48
+      - 🇺🇸
+      - Pool_
+      - 🇦🇺 Pool_🇦🇺AU_182
+      - 🇷🇴 Pool_🇷🇴RO_1974
+      - Pool_🇸🇰SK_2118
+      - 🇺🇸 Pool_🇺🇸US_385
+      - Pool_🇮🇳IN_1431
       - 🇦🇺 Pool_🇦🇺AU_254
-      - Pool__59
-      - 🇺🇸 Pool_🇺🇸US_4477
-      - Pool_🇳🇿NZ_2744
-      - Pool__68
-      - 🇦🇺 Pool_🇦🇺AU_229
-      - 🇦🇺 Pool_🇦🇺AU_127
-      - Pool__54
-      - Pool__164
-      - Pool__43
-      - Pool_🇳🇿NZ_2718
-      - Pool_ 2
-      - Pool__155
-      - Pool__122
-      - Pool__21
-      - Pool__20
-      - 🇦🇺 Pool_🇦🇺AU_222
-      - Pool__74
-      - 🇺🇸 Pool_🇺🇸US_4122
-      - 🇺🇸 Pool_🇺🇸US_423
-      - 🇺🇸 Pool_🇺🇸US_4462
-      - Pool__61
-      - Pool__45
-      - Pool_🇳🇿NZ_2737
-      - Pool__65
-      - 🇦🇺 Pool_🇦🇺AU_176
-      - 🇦🇺 Pool_🇦🇺AU_110
-      - 🇦🇺 Pool_🇦🇺AU_174
-      - Pool__49
-      - Pool__56
-      - Pool__123
-      - Pool_ 3
-      - Pool_ 4
-      - Pool__69
-      - 🇦🇺 Pool_🇦🇺AU_143
-      - Pool_ 5
-      - 🇦🇺 Pool_🇦🇺AU_239
-      - 🇦🇺 Pool_🇦🇺AU_187
-      - 🇦🇺 Pool_🇦🇺AU_197
-      - Pool__18
-      - Pool_ 6
-      - Pool__24
-      - 🇺🇸 Pool_🇺🇸US_387
-      - Pool_🏁ZZ_4675
-      - Pool_🏁ZZ_463
-      - Pool_ 7
-      - Pool_🇳🇿NZ_2741
-      - Pool__71
-      - Pool__72
-      - _100
-      - Pool_ 8
-      - Pool__41
-      - Pool_🇬🇧GB_276
-      - Pool__19
-      - Pool_🇵🇱PL_2801
-      - 🇺🇸 Pool_🇺🇸US_359
-      - Pool__152
-      - Pool__70
-      - Pool_ 9
-      - Pool_ 10
-      - Pool__15
-      - Pool__39
-      - 🇺🇸 Pool_🇺🇸US_3359
-      - Pool__154
-      - Pool__51
-      - 🇺🇸 Pool_🇺🇸US_411
-      - Pool__14
-      - 🇩🇪 Pool_🇩🇪DE_868
-      - 🇦🇺 Pool_🇦🇺AU_294
-      - 🇷🇴 Pool_🇷🇴RO_327
-      - Pool__57
-      - 🇺🇸 Pool_🇺🇸US_3828
-      - 🇷🇴 Pool_🇷🇴RO_2929
-      - Pool__17
-      - Pool__133
-      - 🇷🇴 Pool_🇷🇴RO_3073
-      - Pool__159
-      - Pool__153
-      - 🇷🇴 Pool_🇷🇴RO_3067
-      - Pool_ 11
-      - Pool__16
-      - Pool_ 12
-      - Pool__88
-      - Pool__26
-      - 🇺🇸 Pool_🇺🇸US_3721
-      - Pool_🇱🇹LT_2375
-      - Pool__52
-      - 🇺🇸 Pool_🇺🇸US_384
-      - Pool_🇳🇿NZ_2706
-      - 🇺🇸 Pool_🇺🇸US_3567
-      - Pool__66
-      - Pool__96
-      - GB_1754
-      - CA_524
-      - 🇺🇸 Pool_🇺🇸US_4196
-      - Pool_🇦🇱AL_41
-      - Pool_🇭🇷HR_295
-      - 🇫🇷 Pool_🇫🇷FR_253
-      - Pool__64
-      - GB_1661
-      - GB_1706
-      - 🇷🇴 Pool_🇷🇴RO_2950
-      - Pool__86
-      - GB_1542
-      - GB_1541
-      - Pool__90
-      - GB_1739
-      - Pool__77
+      - 🇮🇳
+      - 🇺🇸 Pool_🇺🇸US_2382
+      - 🇺🇸 Pool_🇺🇸US_2747
+      - Pool_🇮🇳IN_1459
+      - 🇨🇿
+      - Pool_🇩🇰DK_704
+      - 🇪🇸
+      - 🇰🇷 KR_1622 |11.55Mb
+      - Pool__27
+      - 🇺🇸 Pool_🇺🇸US_2683
+      - 🇸🇰
+      - 🇺🇸 2
+      - 🇱🇻
       - Pool_🇭🇷HR_1863
-      - GB_1651
-      - Pool__146
-      - Pool__87
-      - 🇷🇴 Pool_🇷🇴RO_326
-      - Pool__93
-      - 🇺🇸 Pool_🇺🇸US_4474
-      - Pool__126
-      - 🇺🇸 Pool_🇺🇸US_4530
-      - Pool_ 13
-      - 🇺🇸 Pool_🇺🇸US_392
-      - 🇺🇸 Pool_🇺🇸US_3762
-      - 🇺🇸 Pool_🇺🇸US_3659
-      - 🇫🇷 Pool_🇫🇷FR_1472
-      - Pool__81
-      - 🇺🇸 Pool_🇺🇸US_4491
-      - 🇺🇸 Pool_🇺🇸US_366
-      - Pool_ 14
-      - Pool_🇱🇹LT_2377
-      - Pool_🇫🇮FI_1183
-      - Pool_🇱🇹LT_2352
-      - Pool__89
-      - 🇺🇸 Pool_🇺🇸US_3430
-      - 🇺🇸 Pool_🇺🇸US_3977
-      - Pool__82
-      - Pool_ 15
-      - 🇺🇸 Pool_🇺🇸US_3399
-      - 🇺🇸 Pool_🇺🇸US_373
-      - Pool_🇱🇹LT_308
-      - Pool_🇫🇮FI_1168
-      - Pool_ 16
-      - Pool_🇦🇱AL_35
-      - Pool_🇱🇻LV_2455
-      - Pool__28
-      - CA_570
-      - CA_494
-      - Pool__150
-      - 🇺🇸 Pool_🇺🇸US_4500
+      - 🇺🇸 3
+      - Relay_ | 4.88Mb
+      - 🇺🇸 Pool_🇺🇸US_2622
+      - 🇦🇺 Pool_🇦🇺AU_175
+      - 🇩🇪
+      - 🇫🇷
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - 🇷🇴 Pool_🇷🇴RO_1996
+      - 🇮🇳 2
+      - 🇺🇸 Pool_🇺🇸US_2770
+      - Pool_🇵🇱PL_2801
+      - 🇺🇸 6
+      - 🇦🇺
+      - 🇺🇸 7
+      - Pool_ 2
+      - Pool_🇫🇮FI_915
+      - Pool__36
+      - Pool_🇮🇳IN_1457
       - Pool__29
-      - 🇺🇸 Pool_🇺🇸US_372
-      - Pool__162
-      - Pool_🇫🇮FI_1185
-      - Pool__83
-      - Pool_🇱🇹LT_2369
-      - Pool_🇱🇻LV_2456
+      - Pool_ 3
+      - 🇺🇸 8
+      - 🇮🇳 3
+      - 🇺🇸 9
+      - 🇺🇸 10
+      - 🇦🇺 Pool_🇦🇺AU_275
+      - Pool_🇳🇿NZ_1846
+      - Pool__120
+      - 🇷🇴 Pool_🇷🇴RO_1994
+      - 🇫🇷 Pool_🇫🇷FR_253
+      - 🇷🇴
+      - 🇺🇸 11
+      - 🇷🇴 Pool_🇷🇴RO_1951
+      - 🇩🇪 Pool_🇩🇪DE_638
+      - Pool_🇱🇻LV_1662
+      - 🇺🇸 Pool_🇺🇸US_2817
+      - 🇺🇸 Pool_🇺🇸US_2621
+      - Pool__46
+      - 🇫🇷 Pool_🇫🇷FR_1472
+      - Pool_🇦🇱AL_41
+      - 🇺🇸 Pool_🇺🇸US_2651
+      - 🇩🇰
+      - 🇫🇮
+      - 🇷🇴 2
+      - 🇨🇿 2
+      - 🇺🇸 12
+      - Pool__105
+      - Pool_ 4
+      - 🇩🇪 Pool_🇩🇪DE_629
+      - 🇦🇺 Pool_🇦🇺AU_163
+      - Pool_🇮🇩ID_1385
+      - Pool_🇬🇧GB_1275
+      - Pool__138
+      - 🇺🇸 13
+      - 🇺🇸 14
+      - 🇺🇸 Pool_🇺🇸US_2302
+      - 🇺🇸 15
+      - Pool__109
+      - 🇨🇳 Pool_🇹🇼TW_2125
+      - Pool__159
+      - 🇫🇷 Pool_🇫🇷FR_1077
+      - 🇩🇪 Pool_🇩🇪DE_657
+      - Pool_🇱🇹LT_1623
+      - 🇺🇸 Pool_🇺🇸US_2619
+      - 🇺🇸 Pool_🇺🇸US_4196
+      - 🇺🇸 Pool_🇺🇸US_4500
       - Pool__94
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb
-      - Pool_🏁ZZ_459
-      - 🇭🇰 HK_1856 |26.16Mb
-      - Pool__33
-      - Pool__79
-      - Pool__128
-      - AE_13
-      - Pool__50
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb
-      - Pool__129
-      - 🇺🇸 Pool_🇺🇸US_4216
-      - AE_04
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb
-      - Pool__91
-      - 🇺🇸 US_4529 |24.65Mb
-      - 🇺🇸 Pool_🇺🇸US_3456
-      - 🇫🇷 Pool_🇫🇷FR_254
-      - 🇺🇸 Pool_🇺🇸US_4203
-      - Pool__31
-      - Pool__84
-      - Pool__160
-      - 🇺🇸 Pool_🇺🇸US_3367
-      - 🇺🇸 Pool_🇺🇸US_4134
-      - Pool__132
-      - 🇿🇦 Pool_🇿🇦ZA_4633
-      - Pool_ 17
-      - Pool_ 18
-      - 🇺🇸 Pool_🇺🇸US_357
-      - Pool__127
-      - 🇺🇸 Pool_🇺🇸US_419
-      - 🇺🇸 Pool_🇺🇸US_3739
-      - Pool__124
-      - Pool_ 19
+      - Pool_🇬🇧GB_1268
+      - 🇷🇴 Pool_🇷🇴RO_1992
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Pool__47
-      - Pool__30
-      - Pool__134
-      - Pool_🇬🇧GB_1499
-      - Pool__141
-      - 🇺🇸 Pool_🇺🇸US_3788
-      - Pool__145
-      - Pool_
-      - Pool__165
-      - Pool__106
-      - Pool__135
-      - Pool__63
-      - Pool__131
-      - Pool__67
-      - Pool__138
-      - Pool__44
-      - Pool__13
+      - 🏁
+      - Pool_🇮🇳IN_1465
       - Pool_🇬🇧GB_1567
-      - Pool__78
-      - Pool__46
-      - 🇺🇸 Pool_🇺🇸US_430
-      - 🇦🇺 Pool_🇦🇺AU_175
-      - Pool__137
-      - Pool__53
-      - Pool__48
+      - 🇺🇸
+      - Pool_
+      - 🇦🇺 Pool_🇦🇺AU_182
+      - 🇷🇴 Pool_🇷🇴RO_1974
+      - Pool_🇸🇰SK_2118
+      - 🇺🇸 Pool_🇺🇸US_385
+      - Pool_🇮🇳IN_1431
       - 🇦🇺 Pool_🇦🇺AU_254
-      - Pool__59
-      - 🇺🇸 Pool_🇺🇸US_4477
-      - Pool_🇳🇿NZ_2744
-      - Pool__68
-      - 🇦🇺 Pool_🇦🇺AU_229
-      - 🇦🇺 Pool_🇦🇺AU_127
-      - Pool__54
-      - Pool__164
-      - Pool__43
-      - Pool_🇳🇿NZ_2718
-      - Pool_ 2
-      - Pool__155
-      - Pool__122
-      - Pool__21
-      - Pool__20
-      - 🇦🇺 Pool_🇦🇺AU_222
-      - Pool__74
-      - 🇺🇸 Pool_🇺🇸US_4122
-      - 🇺🇸 Pool_🇺🇸US_423
-      - 🇺🇸 Pool_🇺🇸US_4462
-      - Pool__61
-      - Pool__45
-      - Pool_🇳🇿NZ_2737
-      - Pool__65
-      - 🇦🇺 Pool_🇦🇺AU_176
-      - 🇦🇺 Pool_🇦🇺AU_110
-      - 🇦🇺 Pool_🇦🇺AU_174
-      - Pool__49
-      - Pool__56
-      - Pool__123
-      - Pool_ 3
-      - Pool_ 4
-      - Pool__69
-      - 🇦🇺 Pool_🇦🇺AU_143
-      - Pool_ 5
-      - 🇦🇺 Pool_🇦🇺AU_239
-      - 🇦🇺 Pool_🇦🇺AU_187
-      - 🇦🇺 Pool_🇦🇺AU_197
-      - Pool__18
-      - Pool_ 6
-      - Pool__24
-      - 🇺🇸 Pool_🇺🇸US_387
-      - Pool_🏁ZZ_4675
-      - Pool_🏁ZZ_463
-      - Pool_ 7
-      - Pool_🇳🇿NZ_2741
-      - Pool__71
-      - Pool__72
-      - _100
-      - Pool_ 8
-      - Pool__41
-      - Pool_🇬🇧GB_276
-      - Pool__19
-      - Pool_🇵🇱PL_2801
-      - 🇺🇸 Pool_🇺🇸US_359
-      - Pool__152
-      - Pool__70
-      - Pool_ 9
-      - Pool_ 10
-      - Pool__15
-      - Pool__39
-      - 🇺🇸 Pool_🇺🇸US_3359
-      - Pool__154
-      - Pool__51
-      - 🇺🇸 Pool_🇺🇸US_411
-      - Pool__14
-      - 🇩🇪 Pool_🇩🇪DE_868
-      - 🇦🇺 Pool_🇦🇺AU_294
-      - 🇷🇴 Pool_🇷🇴RO_327
-      - Pool__57
-      - 🇺🇸 Pool_🇺🇸US_3828
-      - 🇷🇴 Pool_🇷🇴RO_2929
-      - Pool__17
-      - Pool__133
-      - 🇷🇴 Pool_🇷🇴RO_3073
-      - Pool__159
-      - Pool__153
-      - 🇷🇴 Pool_🇷🇴RO_3067
-      - Pool_ 11
-      - Pool__16
-      - Pool_ 12
-      - Pool__88
-      - Pool__26
-      - 🇺🇸 Pool_🇺🇸US_3721
-      - Pool_🇱🇹LT_2375
-      - Pool__52
-      - 🇺🇸 Pool_🇺🇸US_384
-      - Pool_🇳🇿NZ_2706
-      - 🇺🇸 Pool_🇺🇸US_3567
-      - Pool__66
-      - Pool__96
-      - GB_1754
-      - CA_524
-      - 🇺🇸 Pool_🇺🇸US_4196
-      - Pool_🇦🇱AL_41
-      - Pool_🇭🇷HR_295
-      - 🇫🇷 Pool_🇫🇷FR_253
-      - Pool__64
-      - GB_1661
-      - GB_1706
-      - 🇷🇴 Pool_🇷🇴RO_2950
-      - Pool__86
-      - GB_1542
-      - GB_1541
-      - Pool__90
-      - GB_1739
-      - Pool__77
+      - 🇮🇳
+      - 🇺🇸 Pool_🇺🇸US_2382
+      - 🇺🇸 Pool_🇺🇸US_2747
+      - Pool_🇮🇳IN_1459
+      - 🇨🇿
+      - Pool_🇩🇰DK_704
+      - 🇪🇸
+      - 🇰🇷 KR_1622 |11.55Mb
+      - Pool__27
+      - 🇺🇸 Pool_🇺🇸US_2683
+      - 🇸🇰
+      - 🇺🇸 2
+      - 🇱🇻
       - Pool_🇭🇷HR_1863
-      - GB_1651
-      - Pool__146
-      - Pool__87
-      - 🇷🇴 Pool_🇷🇴RO_326
-      - Pool__93
-      - 🇺🇸 Pool_🇺🇸US_4474
-      - Pool__126
-      - 🇺🇸 Pool_🇺🇸US_4530
-      - Pool_ 13
-      - 🇺🇸 Pool_🇺🇸US_392
-      - 🇺🇸 Pool_🇺🇸US_3762
-      - 🇺🇸 Pool_🇺🇸US_3659
-      - 🇫🇷 Pool_🇫🇷FR_1472
-      - Pool__81
-      - 🇺🇸 Pool_🇺🇸US_4491
-      - 🇺🇸 Pool_🇺🇸US_366
-      - Pool_ 14
-      - Pool_🇱🇹LT_2377
-      - Pool_🇫🇮FI_1183
-      - Pool_🇱🇹LT_2352
-      - Pool__89
-      - 🇺🇸 Pool_🇺🇸US_3430
-      - 🇺🇸 Pool_🇺🇸US_3977
-      - Pool__82
-      - Pool_ 15
-      - 🇺🇸 Pool_🇺🇸US_3399
-      - 🇺🇸 Pool_🇺🇸US_373
-      - Pool_🇱🇹LT_308
-      - Pool_🇫🇮FI_1168
-      - Pool_ 16
-      - Pool_🇦🇱AL_35
-      - Pool_🇱🇻LV_2455
-      - Pool__28
-      - CA_570
-      - CA_494
-      - Pool__150
-      - 🇺🇸 Pool_🇺🇸US_4500
+      - 🇺🇸 3
+      - Relay_ | 4.88Mb
+      - 🇺🇸 Pool_🇺🇸US_2622
+      - 🇦🇺 Pool_🇦🇺AU_175
+      - 🇩🇪
+      - 🇫🇷
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - 🇷🇴 Pool_🇷🇴RO_1996
+      - 🇮🇳 2
+      - 🇺🇸 Pool_🇺🇸US_2770
+      - Pool_🇵🇱PL_2801
+      - 🇺🇸 6
+      - 🇦🇺
+      - 🇺🇸 7
+      - Pool_ 2
+      - Pool_🇫🇮FI_915
+      - Pool__36
+      - Pool_🇮🇳IN_1457
       - Pool__29
-      - 🇺🇸 Pool_🇺🇸US_372
-      - Pool__162
-      - Pool_🇫🇮FI_1185
-      - Pool__83
-      - Pool_🇱🇹LT_2369
-      - Pool_🇱🇻LV_2456
+      - Pool_ 3
+      - 🇺🇸 8
+      - 🇮🇳 3
+      - 🇺🇸 9
+      - 🇺🇸 10
+      - 🇦🇺 Pool_🇦🇺AU_275
+      - Pool_🇳🇿NZ_1846
+      - Pool__120
+      - 🇷🇴 Pool_🇷🇴RO_1994
+      - 🇫🇷 Pool_🇫🇷FR_253
+      - 🇷🇴
+      - 🇺🇸 11
+      - 🇷🇴 Pool_🇷🇴RO_1951
+      - 🇩🇪 Pool_🇩🇪DE_638
+      - Pool_🇱🇻LV_1662
+      - 🇺🇸 Pool_🇺🇸US_2817
+      - 🇺🇸 Pool_🇺🇸US_2621
+      - Pool__46
+      - 🇫🇷 Pool_🇫🇷FR_1472
+      - Pool_🇦🇱AL_41
+      - 🇺🇸 Pool_🇺🇸US_2651
+      - 🇩🇰
+      - 🇫🇮
+      - 🇷🇴 2
+      - 🇨🇿 2
+      - 🇺🇸 12
+      - Pool__105
+      - Pool_ 4
+      - 🇩🇪 Pool_🇩🇪DE_629
+      - 🇦🇺 Pool_🇦🇺AU_163
+      - Pool_🇮🇩ID_1385
+      - Pool_🇬🇧GB_1275
+      - Pool__138
+      - 🇺🇸 13
+      - 🇺🇸 14
+      - 🇺🇸 Pool_🇺🇸US_2302
+      - 🇺🇸 15
+      - Pool__109
+      - 🇨🇳 Pool_🇹🇼TW_2125
+      - Pool__159
+      - 🇫🇷 Pool_🇫🇷FR_1077
+      - 🇩🇪 Pool_🇩🇪DE_657
+      - Pool_🇱🇹LT_1623
+      - 🇺🇸 Pool_🇺🇸US_2619
+      - 🇺🇸 Pool_🇺🇸US_4196
+      - 🇺🇸 Pool_🇺🇸US_4500
       - Pool__94
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb
-      - Pool_🏁ZZ_459
-      - 🇭🇰 HK_1856 |26.16Mb
-      - Pool__33
-      - Pool__79
-      - Pool__128
-      - AE_13
-      - Pool__50
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb
-      - Pool__129
-      - 🇺🇸 Pool_🇺🇸US_4216
-      - AE_04
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb
-      - Pool__91
-      - 🇺🇸 US_4529 |24.65Mb
-      - 🇺🇸 Pool_🇺🇸US_3456
-      - 🇫🇷 Pool_🇫🇷FR_254
-      - 🇺🇸 Pool_🇺🇸US_4203
-      - Pool__31
-      - Pool__84
-      - Pool__160
-      - 🇺🇸 Pool_🇺🇸US_3367
-      - 🇺🇸 Pool_🇺🇸US_4134
-      - Pool__132
-      - 🇿🇦 Pool_🇿🇦ZA_4633
-      - Pool_ 17
-      - Pool_ 18
-      - 🇺🇸 Pool_🇺🇸US_357
-      - Pool__127
-      - 🇺🇸 Pool_🇺🇸US_419
-      - 🇺🇸 Pool_🇺🇸US_3739
-      - Pool__124
-      - Pool_ 19
+      - Pool_🇬🇧GB_1268
+      - 🇷🇴 Pool_🇷🇴RO_1992
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Pool__47
-      - Pool__30
-      - Pool__134
-      - Pool_🇬🇧GB_1499
-      - Pool__141
-      - 🇺🇸 Pool_🇺🇸US_3788
-      - Pool__145
-      - Pool_
-      - Pool__165
-      - Pool__106
-      - Pool__135
-      - Pool__63
-      - Pool__131
-      - Pool__67
-      - Pool__138
-      - Pool__44
-      - Pool__13
+      - 🏁
+      - Pool_🇮🇳IN_1465
       - Pool_🇬🇧GB_1567
-      - Pool__78
-      - Pool__46
-      - 🇺🇸 Pool_🇺🇸US_430
-      - 🇦🇺 Pool_🇦🇺AU_175
-      - Pool__137
-      - Pool__53
-      - Pool__48
+      - 🇺🇸
+      - Pool_
+      - 🇦🇺 Pool_🇦🇺AU_182
+      - 🇷🇴 Pool_🇷🇴RO_1974
+      - Pool_🇸🇰SK_2118
+      - 🇺🇸 Pool_🇺🇸US_385
+      - Pool_🇮🇳IN_1431
       - 🇦🇺 Pool_🇦🇺AU_254
-      - Pool__59
-      - 🇺🇸 Pool_🇺🇸US_4477
-      - Pool_🇳🇿NZ_2744
-      - Pool__68
-      - 🇦🇺 Pool_🇦🇺AU_229
-      - 🇦🇺 Pool_🇦🇺AU_127
-      - Pool__54
-      - Pool__164
-      - Pool__43
-      - Pool_🇳🇿NZ_2718
-      - Pool_ 2
-      - Pool__155
-      - Pool__122
-      - Pool__21
-      - Pool__20
-      - 🇦🇺 Pool_🇦🇺AU_222
-      - Pool__74
-      - 🇺🇸 Pool_🇺🇸US_4122
-      - 🇺🇸 Pool_🇺🇸US_423
-      - 🇺🇸 Pool_🇺🇸US_4462
-      - Pool__61
-      - Pool__45
-      - Pool_🇳🇿NZ_2737
-      - Pool__65
-      - 🇦🇺 Pool_🇦🇺AU_176
-      - 🇦🇺 Pool_🇦🇺AU_110
-      - 🇦🇺 Pool_🇦🇺AU_174
-      - Pool__49
-      - Pool__56
-      - Pool__123
-      - Pool_ 3
-      - Pool_ 4
-      - Pool__69
-      - 🇦🇺 Pool_🇦🇺AU_143
-      - Pool_ 5
-      - 🇦🇺 Pool_🇦🇺AU_239
-      - 🇦🇺 Pool_🇦🇺AU_187
-      - 🇦🇺 Pool_🇦🇺AU_197
-      - Pool__18
-      - Pool_ 6
-      - Pool__24
-      - 🇺🇸 Pool_🇺🇸US_387
-      - Pool_🏁ZZ_4675
-      - Pool_🏁ZZ_463
-      - Pool_ 7
-      - Pool_🇳🇿NZ_2741
-      - Pool__71
-      - Pool__72
-      - _100
-      - Pool_ 8
-      - Pool__41
-      - Pool_🇬🇧GB_276
-      - Pool__19
-      - Pool_🇵🇱PL_2801
-      - 🇺🇸 Pool_🇺🇸US_359
-      - Pool__152
-      - Pool__70
-      - Pool_ 9
-      - Pool_ 10
-      - Pool__15
-      - Pool__39
-      - 🇺🇸 Pool_🇺🇸US_3359
-      - Pool__154
-      - Pool__51
-      - 🇺🇸 Pool_🇺🇸US_411
-      - Pool__14
-      - 🇩🇪 Pool_🇩🇪DE_868
-      - 🇦🇺 Pool_🇦🇺AU_294
-      - 🇷🇴 Pool_🇷🇴RO_327
-      - Pool__57
-      - 🇺🇸 Pool_🇺🇸US_3828
-      - 🇷🇴 Pool_🇷🇴RO_2929
-      - Pool__17
-      - Pool__133
-      - 🇷🇴 Pool_🇷🇴RO_3073
-      - Pool__159
-      - Pool__153
-      - 🇷🇴 Pool_🇷🇴RO_3067
-      - Pool_ 11
-      - Pool__16
-      - Pool_ 12
-      - Pool__88
-      - Pool__26
-      - 🇺🇸 Pool_🇺🇸US_3721
-      - Pool_🇱🇹LT_2375
-      - Pool__52
-      - 🇺🇸 Pool_🇺🇸US_384
-      - Pool_🇳🇿NZ_2706
-      - 🇺🇸 Pool_🇺🇸US_3567
-      - Pool__66
-      - Pool__96
-      - GB_1754
-      - CA_524
-      - 🇺🇸 Pool_🇺🇸US_4196
-      - Pool_🇦🇱AL_41
-      - Pool_🇭🇷HR_295
-      - 🇫🇷 Pool_🇫🇷FR_253
-      - Pool__64
-      - GB_1661
-      - GB_1706
-      - 🇷🇴 Pool_🇷🇴RO_2950
-      - Pool__86
-      - GB_1542
-      - GB_1541
-      - Pool__90
-      - GB_1739
-      - Pool__77
+      - 🇮🇳
+      - 🇺🇸 Pool_🇺🇸US_2382
+      - 🇺🇸 Pool_🇺🇸US_2747
+      - Pool_🇮🇳IN_1459
+      - 🇨🇿
+      - Pool_🇩🇰DK_704
+      - 🇪🇸
+      - 🇰🇷 KR_1622 |11.55Mb
+      - Pool__27
+      - 🇺🇸 Pool_🇺🇸US_2683
+      - 🇸🇰
+      - 🇺🇸 2
+      - 🇱🇻
       - Pool_🇭🇷HR_1863
-      - GB_1651
-      - Pool__146
-      - Pool__87
-      - 🇷🇴 Pool_🇷🇴RO_326
-      - Pool__93
-      - 🇺🇸 Pool_🇺🇸US_4474
-      - Pool__126
-      - 🇺🇸 Pool_🇺🇸US_4530
-      - Pool_ 13
-      - 🇺🇸 Pool_🇺🇸US_392
-      - 🇺🇸 Pool_🇺🇸US_3762
-      - 🇺🇸 Pool_🇺🇸US_3659
-      - 🇫🇷 Pool_🇫🇷FR_1472
-      - Pool__81
-      - 🇺🇸 Pool_🇺🇸US_4491
-      - 🇺🇸 Pool_🇺🇸US_366
-      - Pool_ 14
-      - Pool_🇱🇹LT_2377
-      - Pool_🇫🇮FI_1183
-      - Pool_🇱🇹LT_2352
-      - Pool__89
-      - 🇺🇸 Pool_🇺🇸US_3430
-      - 🇺🇸 Pool_🇺🇸US_3977
-      - Pool__82
-      - Pool_ 15
-      - 🇺🇸 Pool_🇺🇸US_3399
-      - 🇺🇸 Pool_🇺🇸US_373
-      - Pool_🇱🇹LT_308
-      - Pool_🇫🇮FI_1168
-      - Pool_ 16
-      - Pool_🇦🇱AL_35
-      - Pool_🇱🇻LV_2455
-      - Pool__28
-      - CA_570
-      - CA_494
-      - Pool__150
-      - 🇺🇸 Pool_🇺🇸US_4500
+      - 🇺🇸 3
+      - Relay_ | 4.88Mb
+      - 🇺🇸 Pool_🇺🇸US_2622
+      - 🇦🇺 Pool_🇦🇺AU_175
+      - 🇩🇪
+      - 🇫🇷
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - 🇷🇴 Pool_🇷🇴RO_1996
+      - 🇮🇳 2
+      - 🇺🇸 Pool_🇺🇸US_2770
+      - Pool_🇵🇱PL_2801
+      - 🇺🇸 6
+      - 🇦🇺
+      - 🇺🇸 7
+      - Pool_ 2
+      - Pool_🇫🇮FI_915
+      - Pool__36
+      - Pool_🇮🇳IN_1457
       - Pool__29
-      - 🇺🇸 Pool_🇺🇸US_372
-      - Pool__162
-      - Pool_🇫🇮FI_1185
-      - Pool__83
-      - Pool_🇱🇹LT_2369
-      - Pool_🇱🇻LV_2456
+      - Pool_ 3
+      - 🇺🇸 8
+      - 🇮🇳 3
+      - 🇺🇸 9
+      - 🇺🇸 10
+      - 🇦🇺 Pool_🇦🇺AU_275
+      - Pool_🇳🇿NZ_1846
+      - Pool__120
+      - 🇷🇴 Pool_🇷🇴RO_1994
+      - 🇫🇷 Pool_🇫🇷FR_253
+      - 🇷🇴
+      - 🇺🇸 11
+      - 🇷🇴 Pool_🇷🇴RO_1951
+      - 🇩🇪 Pool_🇩🇪DE_638
+      - Pool_🇱🇻LV_1662
+      - 🇺🇸 Pool_🇺🇸US_2817
+      - 🇺🇸 Pool_🇺🇸US_2621
+      - Pool__46
+      - 🇫🇷 Pool_🇫🇷FR_1472
+      - Pool_🇦🇱AL_41
+      - 🇺🇸 Pool_🇺🇸US_2651
+      - 🇩🇰
+      - 🇫🇮
+      - 🇷🇴 2
+      - 🇨🇿 2
+      - 🇺🇸 12
+      - Pool__105
+      - Pool_ 4
+      - 🇩🇪 Pool_🇩🇪DE_629
+      - 🇦🇺 Pool_🇦🇺AU_163
+      - Pool_🇮🇩ID_1385
+      - Pool_🇬🇧GB_1275
+      - Pool__138
+      - 🇺🇸 13
+      - 🇺🇸 14
+      - 🇺🇸 Pool_🇺🇸US_2302
+      - 🇺🇸 15
+      - Pool__109
+      - 🇨🇳 Pool_🇹🇼TW_2125
+      - Pool__159
+      - 🇫🇷 Pool_🇫🇷FR_1077
+      - 🇩🇪 Pool_🇩🇪DE_657
+      - Pool_🇱🇹LT_1623
+      - 🇺🇸 Pool_🇺🇸US_2619
+      - 🇺🇸 Pool_🇺🇸US_4196
+      - 🇺🇸 Pool_🇺🇸US_4500
       - Pool__94
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb
-      - Pool_🏁ZZ_459
-      - 🇭🇰 HK_1856 |26.16Mb
-      - Pool__33
-      - Pool__79
-      - Pool__128
-      - AE_13
-      - Pool__50
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb
-      - Pool__129
-      - 🇺🇸 Pool_🇺🇸US_4216
-      - AE_04
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb
-      - Pool__91
-      - 🇺🇸 US_4529 |24.65Mb
-      - 🇺🇸 Pool_🇺🇸US_3456
-      - 🇫🇷 Pool_🇫🇷FR_254
-      - 🇺🇸 Pool_🇺🇸US_4203
-      - Pool__31
-      - Pool__84
-      - Pool__160
-      - 🇺🇸 Pool_🇺🇸US_3367
-      - 🇺🇸 Pool_🇺🇸US_4134
-      - Pool__132
-      - 🇿🇦 Pool_🇿🇦ZA_4633
-      - Pool_ 17
-      - Pool_ 18
-      - 🇺🇸 Pool_🇺🇸US_357
-      - Pool__127
-      - 🇺🇸 Pool_🇺🇸US_419
-      - 🇺🇸 Pool_🇺🇸US_3739
-      - Pool__124
-      - Pool_ 19
+      - Pool_🇬🇧GB_1268
+      - 🇷🇴 Pool_🇷🇴RO_1992
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool__47
-      - Pool__30
-      - Pool__134
-      - Pool_🇬🇧GB_1499
-      - Pool__141
-      - 🇺🇸 Pool_🇺🇸US_3788
-      - Pool__145
-      - Pool_
-      - Pool__165
-      - Pool__106
-      - Pool__135
-      - Pool__63
-      - Pool__131
-      - Pool__67
-      - Pool__138
-      - Pool__44
-      - Pool__13
+      - 🏁
+      - Pool_🇮🇳IN_1465
       - Pool_🇬🇧GB_1567
-      - Pool__78
-      - Pool__46
-      - 🇺🇸 Pool_🇺🇸US_430
-      - 🇦🇺 Pool_🇦🇺AU_175
-      - Pool__137
-      - Pool__53
-      - Pool__48
+      - 🇺🇸
+      - Pool_
+      - 🇦🇺 Pool_🇦🇺AU_182
+      - 🇷🇴 Pool_🇷🇴RO_1974
+      - Pool_🇸🇰SK_2118
+      - 🇺🇸 Pool_🇺🇸US_385
+      - Pool_🇮🇳IN_1431
       - 🇦🇺 Pool_🇦🇺AU_254
-      - Pool__59
-      - 🇺🇸 Pool_🇺🇸US_4477
-      - Pool_🇳🇿NZ_2744
-      - Pool__68
-      - 🇦🇺 Pool_🇦🇺AU_229
-      - 🇦🇺 Pool_🇦🇺AU_127
-      - Pool__54
-      - Pool__164
-      - Pool__43
-      - Pool_🇳🇿NZ_2718
-      - Pool_ 2
-      - Pool__155
-      - Pool__122
-      - Pool__21
-      - Pool__20
-      - 🇦🇺 Pool_🇦🇺AU_222
-      - Pool__74
-      - 🇺🇸 Pool_🇺🇸US_4122
-      - 🇺🇸 Pool_🇺🇸US_423
-      - 🇺🇸 Pool_🇺🇸US_4462
-      - Pool__61
-      - Pool__45
-      - Pool_🇳🇿NZ_2737
-      - Pool__65
-      - 🇦🇺 Pool_🇦🇺AU_176
-      - 🇦🇺 Pool_🇦🇺AU_110
-      - 🇦🇺 Pool_🇦🇺AU_174
-      - Pool__49
-      - Pool__56
-      - Pool__123
-      - Pool_ 3
-      - Pool_ 4
-      - Pool__69
-      - 🇦🇺 Pool_🇦🇺AU_143
-      - Pool_ 5
-      - 🇦🇺 Pool_🇦🇺AU_239
-      - 🇦🇺 Pool_🇦🇺AU_187
-      - 🇦🇺 Pool_🇦🇺AU_197
-      - Pool__18
-      - Pool_ 6
-      - Pool__24
-      - 🇺🇸 Pool_🇺🇸US_387
-      - Pool_🏁ZZ_4675
-      - Pool_🏁ZZ_463
-      - Pool_ 7
-      - Pool_🇳🇿NZ_2741
-      - Pool__71
-      - Pool__72
-      - _100
-      - Pool_ 8
-      - Pool__41
-      - Pool_🇬🇧GB_276
-      - Pool__19
-      - Pool_🇵🇱PL_2801
-      - 🇺🇸 Pool_🇺🇸US_359
-      - Pool__152
-      - Pool__70
-      - Pool_ 9
-      - Pool_ 10
-      - Pool__15
-      - Pool__39
-      - 🇺🇸 Pool_🇺🇸US_3359
-      - Pool__154
-      - Pool__51
-      - 🇺🇸 Pool_🇺🇸US_411
-      - Pool__14
-      - 🇩🇪 Pool_🇩🇪DE_868
-      - 🇦🇺 Pool_🇦🇺AU_294
-      - 🇷🇴 Pool_🇷🇴RO_327
-      - Pool__57
-      - 🇺🇸 Pool_🇺🇸US_3828
-      - 🇷🇴 Pool_🇷🇴RO_2929
-      - Pool__17
-      - Pool__133
-      - 🇷🇴 Pool_🇷🇴RO_3073
-      - Pool__159
-      - Pool__153
-      - 🇷🇴 Pool_🇷🇴RO_3067
-      - Pool_ 11
-      - Pool__16
-      - Pool_ 12
-      - Pool__88
-      - Pool__26
-      - 🇺🇸 Pool_🇺🇸US_3721
-      - Pool_🇱🇹LT_2375
-      - Pool__52
-      - 🇺🇸 Pool_🇺🇸US_384
-      - Pool_🇳🇿NZ_2706
-      - 🇺🇸 Pool_🇺🇸US_3567
-      - Pool__66
-      - Pool__96
-      - GB_1754
-      - CA_524
-      - 🇺🇸 Pool_🇺🇸US_4196
-      - Pool_🇦🇱AL_41
-      - Pool_🇭🇷HR_295
-      - 🇫🇷 Pool_🇫🇷FR_253
-      - Pool__64
-      - GB_1661
-      - GB_1706
-      - 🇷🇴 Pool_🇷🇴RO_2950
-      - Pool__86
-      - GB_1542
-      - GB_1541
-      - Pool__90
-      - GB_1739
-      - Pool__77
+      - 🇮🇳
+      - 🇺🇸 Pool_🇺🇸US_2382
+      - 🇺🇸 Pool_🇺🇸US_2747
+      - Pool_🇮🇳IN_1459
+      - 🇨🇿
+      - Pool_🇩🇰DK_704
+      - 🇪🇸
+      - 🇰🇷 KR_1622 |11.55Mb
+      - Pool__27
+      - 🇺🇸 Pool_🇺🇸US_2683
+      - 🇸🇰
+      - 🇺🇸 2
+      - 🇱🇻
       - Pool_🇭🇷HR_1863
-      - GB_1651
-      - Pool__146
-      - Pool__87
-      - 🇷🇴 Pool_🇷🇴RO_326
-      - Pool__93
-      - 🇺🇸 Pool_🇺🇸US_4474
-      - Pool__126
-      - 🇺🇸 Pool_🇺🇸US_4530
-      - Pool_ 13
-      - 🇺🇸 Pool_🇺🇸US_392
-      - 🇺🇸 Pool_🇺🇸US_3762
-      - 🇺🇸 Pool_🇺🇸US_3659
-      - 🇫🇷 Pool_🇫🇷FR_1472
-      - Pool__81
-      - 🇺🇸 Pool_🇺🇸US_4491
-      - 🇺🇸 Pool_🇺🇸US_366
-      - Pool_ 14
-      - Pool_🇱🇹LT_2377
-      - Pool_🇫🇮FI_1183
-      - Pool_🇱🇹LT_2352
-      - Pool__89
-      - 🇺🇸 Pool_🇺🇸US_3430
-      - 🇺🇸 Pool_🇺🇸US_3977
-      - Pool__82
-      - Pool_ 15
-      - 🇺🇸 Pool_🇺🇸US_3399
-      - 🇺🇸 Pool_🇺🇸US_373
-      - Pool_🇱🇹LT_308
-      - Pool_🇫🇮FI_1168
-      - Pool_ 16
-      - Pool_🇦🇱AL_35
-      - Pool_🇱🇻LV_2455
-      - Pool__28
-      - CA_570
-      - CA_494
-      - Pool__150
-      - 🇺🇸 Pool_🇺🇸US_4500
+      - 🇺🇸 3
+      - Relay_ | 4.88Mb
+      - 🇺🇸 Pool_🇺🇸US_2622
+      - 🇦🇺 Pool_🇦🇺AU_175
+      - 🇩🇪
+      - 🇫🇷
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - 🇷🇴 Pool_🇷🇴RO_1996
+      - 🇮🇳 2
+      - 🇺🇸 Pool_🇺🇸US_2770
+      - Pool_🇵🇱PL_2801
+      - 🇺🇸 6
+      - 🇦🇺
+      - 🇺🇸 7
+      - Pool_ 2
+      - Pool_🇫🇮FI_915
+      - Pool__36
+      - Pool_🇮🇳IN_1457
       - Pool__29
-      - 🇺🇸 Pool_🇺🇸US_372
-      - Pool__162
-      - Pool_🇫🇮FI_1185
-      - Pool__83
-      - Pool_🇱🇹LT_2369
-      - Pool_🇱🇻LV_2456
+      - Pool_ 3
+      - 🇺🇸 8
+      - 🇮🇳 3
+      - 🇺🇸 9
+      - 🇺🇸 10
+      - 🇦🇺 Pool_🇦🇺AU_275
+      - Pool_🇳🇿NZ_1846
+      - Pool__120
+      - 🇷🇴 Pool_🇷🇴RO_1994
+      - 🇫🇷 Pool_🇫🇷FR_253
+      - 🇷🇴
+      - 🇺🇸 11
+      - 🇷🇴 Pool_🇷🇴RO_1951
+      - 🇩🇪 Pool_🇩🇪DE_638
+      - Pool_🇱🇻LV_1662
+      - 🇺🇸 Pool_🇺🇸US_2817
+      - 🇺🇸 Pool_🇺🇸US_2621
+      - Pool__46
+      - 🇫🇷 Pool_🇫🇷FR_1472
+      - Pool_🇦🇱AL_41
+      - 🇺🇸 Pool_🇺🇸US_2651
+      - 🇩🇰
+      - 🇫🇮
+      - 🇷🇴 2
+      - 🇨🇿 2
+      - 🇺🇸 12
+      - Pool__105
+      - Pool_ 4
+      - 🇩🇪 Pool_🇩🇪DE_629
+      - 🇦🇺 Pool_🇦🇺AU_163
+      - Pool_🇮🇩ID_1385
+      - Pool_🇬🇧GB_1275
+      - Pool__138
+      - 🇺🇸 13
+      - 🇺🇸 14
+      - 🇺🇸 Pool_🇺🇸US_2302
+      - 🇺🇸 15
+      - Pool__109
+      - 🇨🇳 Pool_🇹🇼TW_2125
+      - Pool__159
+      - 🇫🇷 Pool_🇫🇷FR_1077
+      - 🇩🇪 Pool_🇩🇪DE_657
+      - Pool_🇱🇹LT_1623
+      - 🇺🇸 Pool_🇺🇸US_2619
+      - 🇺🇸 Pool_🇺🇸US_4196
+      - 🇺🇸 Pool_🇺🇸US_4500
       - Pool__94
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb
-      - Pool_🏁ZZ_459
-      - 🇭🇰 HK_1856 |26.16Mb
-      - Pool__33
-      - Pool__79
-      - Pool__128
-      - AE_13
-      - Pool__50
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb
-      - Pool__129
-      - 🇺🇸 Pool_🇺🇸US_4216
-      - AE_04
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb
-      - Pool__91
-      - 🇺🇸 US_4529 |24.65Mb
-      - 🇺🇸 Pool_🇺🇸US_3456
-      - 🇫🇷 Pool_🇫🇷FR_254
-      - 🇺🇸 Pool_🇺🇸US_4203
-      - Pool__31
-      - Pool__84
-      - Pool__160
-      - 🇺🇸 Pool_🇺🇸US_3367
-      - 🇺🇸 Pool_🇺🇸US_4134
-      - Pool__132
-      - 🇿🇦 Pool_🇿🇦ZA_4633
-      - Pool_ 17
-      - Pool_ 18
-      - 🇺🇸 Pool_🇺🇸US_357
-      - Pool__127
-      - 🇺🇸 Pool_🇺🇸US_419
-      - 🇺🇸 Pool_🇺🇸US_3739
-      - Pool__124
-      - Pool_ 19
+      - Pool_🇬🇧GB_1268
+      - 🇷🇴 Pool_🇷🇴RO_1992
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1762,218 +818,100 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Pool__47
-      - Pool__30
-      - Pool__134
-      - Pool_🇬🇧GB_1499
-      - Pool__141
-      - 🇺🇸 Pool_🇺🇸US_3788
-      - Pool__145
-      - Pool_
-      - Pool__165
-      - Pool__106
-      - Pool__135
-      - Pool__63
-      - Pool__131
-      - Pool__67
-      - Pool__138
-      - Pool__44
-      - Pool__13
+      - 🏁
+      - Pool_🇮🇳IN_1465
       - Pool_🇬🇧GB_1567
-      - Pool__78
-      - Pool__46
-      - 🇺🇸 Pool_🇺🇸US_430
-      - 🇦🇺 Pool_🇦🇺AU_175
-      - Pool__137
-      - Pool__53
-      - Pool__48
+      - 🇺🇸
+      - Pool_
+      - 🇦🇺 Pool_🇦🇺AU_182
+      - 🇷🇴 Pool_🇷🇴RO_1974
+      - Pool_🇸🇰SK_2118
+      - 🇺🇸 Pool_🇺🇸US_385
+      - Pool_🇮🇳IN_1431
       - 🇦🇺 Pool_🇦🇺AU_254
-      - Pool__59
-      - 🇺🇸 Pool_🇺🇸US_4477
-      - Pool_🇳🇿NZ_2744
-      - Pool__68
-      - 🇦🇺 Pool_🇦🇺AU_229
-      - 🇦🇺 Pool_🇦🇺AU_127
-      - Pool__54
-      - Pool__164
-      - Pool__43
-      - Pool_🇳🇿NZ_2718
-      - Pool_ 2
-      - Pool__155
-      - Pool__122
-      - Pool__21
-      - Pool__20
-      - 🇦🇺 Pool_🇦🇺AU_222
-      - Pool__74
-      - 🇺🇸 Pool_🇺🇸US_4122
-      - 🇺🇸 Pool_🇺🇸US_423
-      - 🇺🇸 Pool_🇺🇸US_4462
-      - Pool__61
-      - Pool__45
-      - Pool_🇳🇿NZ_2737
-      - Pool__65
-      - 🇦🇺 Pool_🇦🇺AU_176
-      - 🇦🇺 Pool_🇦🇺AU_110
-      - 🇦🇺 Pool_🇦🇺AU_174
-      - Pool__49
-      - Pool__56
-      - Pool__123
-      - Pool_ 3
-      - Pool_ 4
-      - Pool__69
-      - 🇦🇺 Pool_🇦🇺AU_143
-      - Pool_ 5
-      - 🇦🇺 Pool_🇦🇺AU_239
-      - 🇦🇺 Pool_🇦🇺AU_187
-      - 🇦🇺 Pool_🇦🇺AU_197
-      - Pool__18
-      - Pool_ 6
-      - Pool__24
-      - 🇺🇸 Pool_🇺🇸US_387
-      - Pool_🏁ZZ_4675
-      - Pool_🏁ZZ_463
-      - Pool_ 7
-      - Pool_🇳🇿NZ_2741
-      - Pool__71
-      - Pool__72
-      - _100
-      - Pool_ 8
-      - Pool__41
-      - Pool_🇬🇧GB_276
-      - Pool__19
-      - Pool_🇵🇱PL_2801
-      - 🇺🇸 Pool_🇺🇸US_359
-      - Pool__152
-      - Pool__70
-      - Pool_ 9
-      - Pool_ 10
-      - Pool__15
-      - Pool__39
-      - 🇺🇸 Pool_🇺🇸US_3359
-      - Pool__154
-      - Pool__51
-      - 🇺🇸 Pool_🇺🇸US_411
-      - Pool__14
-      - 🇩🇪 Pool_🇩🇪DE_868
-      - 🇦🇺 Pool_🇦🇺AU_294
-      - 🇷🇴 Pool_🇷🇴RO_327
-      - Pool__57
-      - 🇺🇸 Pool_🇺🇸US_3828
-      - 🇷🇴 Pool_🇷🇴RO_2929
-      - Pool__17
-      - Pool__133
-      - 🇷🇴 Pool_🇷🇴RO_3073
-      - Pool__159
-      - Pool__153
-      - 🇷🇴 Pool_🇷🇴RO_3067
-      - Pool_ 11
-      - Pool__16
-      - Pool_ 12
-      - Pool__88
-      - Pool__26
-      - 🇺🇸 Pool_🇺🇸US_3721
-      - Pool_🇱🇹LT_2375
-      - Pool__52
-      - 🇺🇸 Pool_🇺🇸US_384
-      - Pool_🇳🇿NZ_2706
-      - 🇺🇸 Pool_🇺🇸US_3567
-      - Pool__66
-      - Pool__96
-      - GB_1754
-      - CA_524
-      - 🇺🇸 Pool_🇺🇸US_4196
-      - Pool_🇦🇱AL_41
-      - Pool_🇭🇷HR_295
-      - 🇫🇷 Pool_🇫🇷FR_253
-      - Pool__64
-      - GB_1661
-      - GB_1706
-      - 🇷🇴 Pool_🇷🇴RO_2950
-      - Pool__86
-      - GB_1542
-      - GB_1541
-      - Pool__90
-      - GB_1739
-      - Pool__77
+      - 🇮🇳
+      - 🇺🇸 Pool_🇺🇸US_2382
+      - 🇺🇸 Pool_🇺🇸US_2747
+      - Pool_🇮🇳IN_1459
+      - 🇨🇿
+      - Pool_🇩🇰DK_704
+      - 🇪🇸
+      - 🇰🇷 KR_1622 |11.55Mb
+      - Pool__27
+      - 🇺🇸 Pool_🇺🇸US_2683
+      - 🇸🇰
+      - 🇺🇸 2
+      - 🇱🇻
       - Pool_🇭🇷HR_1863
-      - GB_1651
-      - Pool__146
-      - Pool__87
-      - 🇷🇴 Pool_🇷🇴RO_326
-      - Pool__93
-      - 🇺🇸 Pool_🇺🇸US_4474
-      - Pool__126
-      - 🇺🇸 Pool_🇺🇸US_4530
-      - Pool_ 13
-      - 🇺🇸 Pool_🇺🇸US_392
-      - 🇺🇸 Pool_🇺🇸US_3762
-      - 🇺🇸 Pool_🇺🇸US_3659
-      - 🇫🇷 Pool_🇫🇷FR_1472
-      - Pool__81
-      - 🇺🇸 Pool_🇺🇸US_4491
-      - 🇺🇸 Pool_🇺🇸US_366
-      - Pool_ 14
-      - Pool_🇱🇹LT_2377
-      - Pool_🇫🇮FI_1183
-      - Pool_🇱🇹LT_2352
-      - Pool__89
-      - 🇺🇸 Pool_🇺🇸US_3430
-      - 🇺🇸 Pool_🇺🇸US_3977
-      - Pool__82
-      - Pool_ 15
-      - 🇺🇸 Pool_🇺🇸US_3399
-      - 🇺🇸 Pool_🇺🇸US_373
-      - Pool_🇱🇹LT_308
-      - Pool_🇫🇮FI_1168
-      - Pool_ 16
-      - Pool_🇦🇱AL_35
-      - Pool_🇱🇻LV_2455
-      - Pool__28
-      - CA_570
-      - CA_494
-      - Pool__150
-      - 🇺🇸 Pool_🇺🇸US_4500
+      - 🇺🇸 3
+      - Relay_ | 4.88Mb
+      - 🇺🇸 Pool_🇺🇸US_2622
+      - 🇦🇺 Pool_🇦🇺AU_175
+      - 🇩🇪
+      - 🇫🇷
+      - 🇺🇸 4
+      - 🇺🇸 5
+      - 🇷🇴 Pool_🇷🇴RO_1996
+      - 🇮🇳 2
+      - 🇺🇸 Pool_🇺🇸US_2770
+      - Pool_🇵🇱PL_2801
+      - 🇺🇸 6
+      - 🇦🇺
+      - 🇺🇸 7
+      - Pool_ 2
+      - Pool_🇫🇮FI_915
+      - Pool__36
+      - Pool_🇮🇳IN_1457
       - Pool__29
-      - 🇺🇸 Pool_🇺🇸US_372
-      - Pool__162
-      - Pool_🇫🇮FI_1185
-      - Pool__83
-      - Pool_🇱🇹LT_2369
-      - Pool_🇱🇻LV_2456
+      - Pool_ 3
+      - 🇺🇸 8
+      - 🇮🇳 3
+      - 🇺🇸 9
+      - 🇺🇸 10
+      - 🇦🇺 Pool_🇦🇺AU_275
+      - Pool_🇳🇿NZ_1846
+      - Pool__120
+      - 🇷🇴 Pool_🇷🇴RO_1994
+      - 🇫🇷 Pool_🇫🇷FR_253
+      - 🇷🇴
+      - 🇺🇸 11
+      - 🇷🇴 Pool_🇷🇴RO_1951
+      - 🇩🇪 Pool_🇩🇪DE_638
+      - Pool_🇱🇻LV_1662
+      - 🇺🇸 Pool_🇺🇸US_2817
+      - 🇺🇸 Pool_🇺🇸US_2621
+      - Pool__46
+      - 🇫🇷 Pool_🇫🇷FR_1472
+      - Pool_🇦🇱AL_41
+      - 🇺🇸 Pool_🇺🇸US_2651
+      - 🇩🇰
+      - 🇫🇮
+      - 🇷🇴 2
+      - 🇨🇿 2
+      - 🇺🇸 12
+      - Pool__105
+      - Pool_ 4
+      - 🇩🇪 Pool_🇩🇪DE_629
+      - 🇦🇺 Pool_🇦🇺AU_163
+      - Pool_🇮🇩ID_1385
+      - Pool_🇬🇧GB_1275
+      - Pool__138
+      - 🇺🇸 13
+      - 🇺🇸 14
+      - 🇺🇸 Pool_🇺🇸US_2302
+      - 🇺🇸 15
+      - Pool__109
+      - 🇨🇳 Pool_🇹🇼TW_2125
+      - Pool__159
+      - 🇫🇷 Pool_🇫🇷FR_1077
+      - 🇩🇪 Pool_🇩🇪DE_657
+      - Pool_🇱🇹LT_1623
+      - 🇺🇸 Pool_🇺🇸US_2619
+      - 🇺🇸 Pool_🇺🇸US_4196
+      - 🇺🇸 Pool_🇺🇸US_4500
       - Pool__94
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4542 |46.38Mb
-      - Pool_🏁ZZ_459
-      - 🇭🇰 HK_1856 |26.16Mb
-      - Pool__33
-      - Pool__79
-      - Pool__128
-      - AE_13
-      - Pool__50
-      - 🇺🇸 Relay_🇺🇸US-🇺🇸US_4547 |22.83Mb
-      - Pool__129
-      - 🇺🇸 Pool_🇺🇸US_4216
-      - AE_04
-      - 🇭🇰 Relay_🇭🇰HK-🇭🇰HK_1855 |13.99Mb
-      - Pool__91
-      - 🇺🇸 US_4529 |24.65Mb
-      - 🇺🇸 Pool_🇺🇸US_3456
-      - 🇫🇷 Pool_🇫🇷FR_254
-      - 🇺🇸 Pool_🇺🇸US_4203
-      - Pool__31
-      - Pool__84
-      - Pool__160
-      - 🇺🇸 Pool_🇺🇸US_3367
-      - 🇺🇸 Pool_🇺🇸US_4134
-      - Pool__132
-      - 🇿🇦 Pool_🇿🇦ZA_4633
-      - Pool_ 17
-      - Pool_ 18
-      - 🇺🇸 Pool_🇺🇸US_357
-      - Pool__127
-      - 🇺🇸 Pool_🇺🇸US_419
-      - 🇺🇸 Pool_🇺🇸US_3739
-      - Pool__124
-      - Pool_ 19
+      - Pool_🇬🇧GB_1268
+      - 🇷🇴 Pool_🇷🇴RO_1992
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
