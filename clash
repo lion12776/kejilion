@@ -3,28 +3,28 @@ socks-port: 7891
 allow-lan: true
 mode: Rule
 log-level: info
-external-controller: :9090
+external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "", server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: b8a4e40b-0458-3ba0-a28d-b5405de5bbe5, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
-  - {name: 🇸🇬 SG_274, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: c9e02a22-c4b8-39bd-b774-05b41559487a, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
-  - {name: " 2", server: v1-aws-sg-06.tudog.me, port: 80, type: vmess, uuid: 3dbe8ef8-0d92-3d40-9ce9-329677fa796c, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-06.tudog.me}}
+  - {name: "", server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: b8a4e40b-0458-3ba0-a28d-b5405de5bbe5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: 🇸🇬 SG_274, server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: c9e02a22-c4b8-39bd-b774-05b41559487a, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: " 2", server: v1-aws-sg-06.tudog.me, port: 80, type: vmess, uuid: 3dbe8ef8-0d92-3d40-9ce9-329677fa796c, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-06.tudog.me}}
   - {name: Pool_, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: Relay_ | 1.31Mb, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: Relay_ | 1.31Mb, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
   - {name: Pool_ 2, server: 154.127.50.138, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: Pool__159, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
   - {name: 68.71.244.208:31572, server: 68.71.244.208, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: " 3", server: ks-us-d.qjnodeip.xyz, port: 9681, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-d.qjnodeip.xyz}}
+  - {name: " 3", server: ks-us-d.qjnodeip.xyz, port: 9681, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-d.qjnodeip.xyz}}
   - {name: Pool__46, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: Pool_ 3, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: " 4", server: ks-us-b.qjnodeip.xyz, port: 5341, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-b.qjnodeip.xyz}}
+  - {name: " 4", server: ks-us-b.qjnodeip.xyz, port: 5341, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-b.qjnodeip.xyz}}
   - {name: Pool__59, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: Relay_ |33.09Mb, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 US_446, server: ks-us-c.qjnodeip.xyz, port: 5361, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-c.qjnodeip.xyz}}
+  - {name: 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: Relay_ |33.09Mb, server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: 🇺🇲 US_446, server: ks-us-c.qjnodeip.xyz, port: 5361, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-c.qjnodeip.xyz}}
   - {name: 🇷🇴, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
   - {name: 🇩🇪, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: " 5", server: 104.16.248.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
-  - {name: 🇺🇸 US_440, server: c-jp-dv1.ooxc.cc, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /jj, ws-headers: {Host: c-jp-dv1.ooxc.cc}}
+  - {name: " 5", server: 104.16.248.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
+  - {name: 🇺🇲 US_440, server: c-jp-dv1.ooxc.cc, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp-dv1.ooxc.cc}}
   - {name: Pool_ 4, server: 188.92.78.203, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
 proxy-groups:
   - name: 🚀 节点选择
@@ -47,11 +47,11 @@ proxy-groups:
       - Pool__59
       - 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb
       - Relay_ |33.09Mb
-      - 🇺🇸 US_446
+      - 🇺🇲 US_446
       - 🇷🇴
       - 🇩🇪
       - " 5"
-      - 🇺🇸 US_440
+      - 🇺🇲 US_440
       - Pool_ 4
   - name: ♻️ 自动选择
     type: url-test
@@ -74,11 +74,11 @@ proxy-groups:
       - Pool__59
       - 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb
       - Relay_ |33.09Mb
-      - 🇺🇸 US_446
+      - 🇺🇲 US_446
       - 🇷🇴
       - 🇩🇪
       - " 5"
-      - 🇺🇸 US_440
+      - 🇺🇲 US_440
       - Pool_ 4
   - name: 🌍 国外媒体
     type: select
@@ -101,11 +101,11 @@ proxy-groups:
       - Pool__59
       - 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb
       - Relay_ |33.09Mb
-      - 🇺🇸 US_446
+      - 🇺🇲 US_446
       - 🇷🇴
       - 🇩🇪
       - " 5"
-      - 🇺🇸 US_440
+      - 🇺🇲 US_440
       - Pool_ 4
   - name: 📲 电报信息
     type: select
@@ -127,11 +127,11 @@ proxy-groups:
       - Pool__59
       - 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb
       - Relay_ |33.09Mb
-      - 🇺🇸 US_446
+      - 🇺🇲 US_446
       - 🇷🇴
       - 🇩🇪
       - " 5"
-      - 🇺🇸 US_440
+      - 🇺🇲 US_440
       - Pool_ 4
   - name: Ⓜ️ 微软服务
     type: select
@@ -153,11 +153,11 @@ proxy-groups:
       - Pool__59
       - 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb
       - Relay_ |33.09Mb
-      - 🇺🇸 US_446
+      - 🇺🇲 US_446
       - 🇷🇴
       - 🇩🇪
       - " 5"
-      - 🇺🇸 US_440
+      - 🇺🇲 US_440
       - Pool_ 4
   - name: 🍎 苹果服务
     type: select
@@ -179,11 +179,11 @@ proxy-groups:
       - Pool__59
       - 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb
       - Relay_ |33.09Mb
-      - 🇺🇸 US_446
+      - 🇺🇲 US_446
       - 🇷🇴
       - 🇩🇪
       - " 5"
-      - 🇺🇸 US_440
+      - 🇺🇲 US_440
       - Pool_ 4
   - name: 📢 谷歌FCM
     type: select
@@ -206,11 +206,11 @@ proxy-groups:
       - Pool__59
       - 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb
       - Relay_ |33.09Mb
-      - 🇺🇸 US_446
+      - 🇺🇲 US_446
       - 🇷🇴
       - 🇩🇪
       - " 5"
-      - 🇺🇸 US_440
+      - 🇺🇲 US_440
       - Pool_ 4
   - name: 🎯 全球直连
     type: select
@@ -249,11 +249,11 @@ proxy-groups:
       - Pool__59
       - 🇷🇺 Relay_🇺🇸US-🇷🇺RU_2906 | 7.38Mb
       - Relay_ |33.09Mb
-      - 🇺🇸 US_446
+      - 🇺🇲 US_446
       - 🇷🇴
       - 🇩🇪
       - " 5"
-      - 🇺🇸 US_440
+      - 🇺🇲 US_440
       - Pool_ 4
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
