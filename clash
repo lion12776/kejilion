@@ -5,549 +5,605 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇳 CN_31, server: hk-azure-node6.wdnmd.pw, port: 50003, type: vmess, uuid: f3d9ebbc-4152-347b-8959-e185623aa069, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇨🇳 CN_30, server: sg-ali-node1.wdnmd.pw, port: 50005, type: vmess, uuid: f3d9ebbc-4152-347b-8959-e185623aa069, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
-  - {name: 🇺🇸, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb, server: 223.166.165.243, port: 10005, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 US_425, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
-  - {name: 🇺🇲 US_416, server: 45.88.179.35, port: 42365, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
-  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb, server: 183.236.57.53, port: 10001, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb, server: 183.236.57.53, port: 10004, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇺🇸 2, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb, server: 183.236.57.53, port: 10003, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇷🇴, server: 194.110.115.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884, server: c-jp-dv1.ooxc.cc, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp-dv1.ooxc.cc}}
-  - {name: 🇱🇻, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇺🇸 3, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇸🇰, server: 185.76.8.212, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
-  - {name: 🇺🇸 4, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇩🇪, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Pool__12, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
-  - {name: 🇸🇬 SG_1138, server: 172.104.62.248, port: 80, type: vmess, uuid: 3c6e2754-9553-4801-bcb2-2043d92a5a0e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.um.edu.mo}}
-  - {name: 🇷🇴 2, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: Pool__08, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
-  - {name: 🇺🇸 5, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇸 6, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 Pool_🇺🇸US_1257, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
-  - {name: Pool__13, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567, server: 104.16.249.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
-  - {name: Pool__34, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: "", server: 104.16.248.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557, server: us178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: " 2", server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: b8a4e40b-0458-3ba0-a28d-b5405de5bbe5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
-  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb, server: 223.166.165.243, port: 10004, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
-  - {name: 🇺🇲 US_1558, server: 199.180.114.32, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
-  - {name: Relay_ | 1.31Mb, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
-  - {name: 🇺🇲 US_422, server: ks-us-a.qjnodeip.xyz, port: 5329, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-a.qjnodeip.xyz}}
-  - {name: 🇬🇧, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: Pool__35, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: Relay_ | 7.46Mb, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
-  - {name: Relay_ |13.59Mb, server: node09-v2ray.cloudddns.icu, port: 58888, type: vmess, uuid: a4f79c56-42e5-462d-a76b-0aac55d45fdf, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: node09-v2ray.cloudddns.icu}}
-  - {name: Pool__14, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: 🇺🇸 7, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
-  - {name: Relay_ |13.23Mb, server: 183.236.57.53, port: 10002, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
-  - {name: 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb, server: 223.166.165.243, port: 10002, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
-  - {name: Pool__32, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
-  - {name: 🇺🇸 8, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
-  - {name: 🇭🇷, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 🇺🇲 US_446, server: ks-us-c.qjnodeip.xyz, port: 5361, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-c.qjnodeip.xyz}}
-  - {name: Relay_ |16.01Mb, server: shcn2-04.iplc188.com, port: 10005, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
+  - {name: 科技lion, server: 143.244.42.86, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 科技lion 2, server: 212.102.35.218, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 科技lion 3, server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 科技lion 4, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: 科技lion 5, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇭🇰 HK_151, server: zhongzhuangazhk111.xiaobaiyun.me, port: 810, type: vmess, uuid: 28aae7ef-076e-3e57-818f-29ff89e38d3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: mgalsj.xiaobaiyun.me}}
+  - {name: 🏁, server: 103.156.50.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇺, server: ss-13.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
+  - {name: 🇺🇸, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842, server: ks-jp-a.qjnodeip.xyz, port: 5320, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-jp-a.qjnodeip.xyz}}
+  - {name: "", server: ks-us-b.qjnodeip.xyz, port: 5341, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-b.qjnodeip.xyz}}
+  - {name: "| 6.85Mb", server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
+  - {name: Pool__73, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: "| 7.58Mb", server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
   - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890, server: ks-us-d.qjnodeip.xyz, port: 9681, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-d.qjnodeip.xyz}}
   - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb, server: shcn2-04.iplc188.com, port: 10001, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
   - {name: 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb, server: shcn2-04.iplc188.com, port: 10004, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
   - {name: Pool__33, server: 188.92.78.145, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
-  - {name: "| 7.58Mb", server: 107.175.44.154, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
-  - {name: "| 6.85Mb", server: 128.14.153.42, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8633, alterId: 1, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: usa2-node.3366test.com}}
-  - {name: Pool__73, server: 2.58.242.43, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇭🇰 HK_151, server: zhongzhuangazhk111.xiaobaiyun.me, port: 810, type: vmess, uuid: 28aae7ef-076e-3e57-818f-29ff89e38d3e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /hls, ws-headers: {Host: mgalsj.xiaobaiyun.me}}
-  - {name: 🏁, server: 103.156.50.115, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 🇷🇺, server: ss-13.ssrsub.one, port: 1443, type: ss, cipher: aes-128-gcm, password: dlj.tf/ssrsub}
-  - {name: 🇺🇸 9, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
-  - {name: 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842, server: ks-jp-a.qjnodeip.xyz, port: 5320, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-jp-a.qjnodeip.xyz}}
-  - {name: " 3", server: ks-us-b.qjnodeip.xyz, port: 5341, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-b.qjnodeip.xyz}}
+  - {name: Relay_ |16.01Mb, server: shcn2-04.iplc188.com, port: 10005, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇲 US_446, server: ks-us-c.qjnodeip.xyz, port: 5361, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-c.qjnodeip.xyz}}
+  - {name: 🇭🇷, server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 🇺🇸 2, server: 207.244.67.149, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: Relay_ |13.23Mb, server: 183.236.57.53, port: 10002, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
+  - {name: 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb, server: 223.166.165.243, port: 10002, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
+  - {name: Pool__32, server: 188.92.78.145, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇺🇸 3, server: 198.147.22.87, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556, server: rntwo.laoban666.xyz, port: 443, type: vmess, uuid: 114f5786-a8a0-446a-a32f-446893480560, alterId: 10, cipher: auto, tls: true, network: ws, ws-path: /27353486f3a1d4f/, ws-headers: {Host: rntwo.laoban666.xyz}}
+  - {name: Relay_ | 7.46Mb, server: free-russian01-cdn.xiaohouzi.club, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}}
+  - {name: Relay_ |13.59Mb, server: node09-v2ray.cloudddns.icu, port: 58888, type: vmess, uuid: a4f79c56-42e5-462d-a76b-0aac55d45fdf, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: node09-v2ray.cloudddns.icu}}
+  - {name: 🇺🇲 US_422, server: ks-us-a.qjnodeip.xyz, port: 5329, type: vmess, uuid: 0cbaff00-dc2e-443c-bd94-77b0605c2d58, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ks-us-a.qjnodeip.xyz}}
+  - {name: 🇬🇧, server: 185.38.150.124, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: Pool__35, server: 188.92.78.145, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb, server: 223.166.165.243, port: 10004, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
+  - {name: 🇺🇲 US_1558, server: 199.180.114.32, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
+  - {name: Relay_ | 1.31Mb, server: 23.224.31.210, port: 443, type: vmess, uuid: 4aa50ee1-1a3c-4ab5-8f4a-998f8ccedd06, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /path/270119141029, ws-headers: {Host: www.53933374.xyz}}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557, server: us178.mars6666.com, port: 443, type: vmess, uuid: fe93a062-d13f-3958-9ebc-0c06cd32dfb0, alterId: 3, cipher: auto, tls: true, network: ws, ws-path: /ray, ws-headers: {Host: us178.mars6666.com}}
+  - {name: " 2", server: v1-aws-sg-01.tudog.me, port: 80, type: vmess, uuid: b8a4e40b-0458-3ba0-a28d-b5405de5bbe5, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /tudog, ws-headers: {Host: v1-aws-sg-01.tudog.me}}
+  - {name: Pool__13, server: 45.89.173.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567, server: 104.16.249.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
+  - {name: Pool__34, server: 188.92.78.145, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: " 3", server: 104.16.248.130, port: 443, type: vmess, uuid: e6397eda-dd27-4832-a693-b3fb156ec0f3, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /233blog, ws-headers: {Host: rn.man-one.club}}
+  - {name: 🇺🇸 4, server: 143.244.57.99, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇲 Pool_🇺🇸US_1257, server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551, server: cc.hciahciphcie.club, port: 443, type: vmess, uuid: 9a297bb1-06e3-4e6f-97fa-3d3202d46596, alterId: 2, cipher: auto, tls: true, network: ws, ws-path: /84c3f/, ws-headers: {Host: cc.hciahciphcie.club}}
+  - {name: Pool__08, server: 198.147.22.87, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb}
+  - {name: 🇺🇸 5, server: 104.200.131.245, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 🇩🇪, server: 185.2.100.166, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: Pool__12, server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 🇸🇬 SG_1138, server: 172.104.62.248, port: 80, type: vmess, uuid: 3c6e2754-9553-4801-bcb2-2043d92a5a0e, alterId: 2, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: www.um.edu.mo}}
+  - {name: 🇷🇴, server: 185.124.240.159, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
+  - {name: w4, server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk}
+  - {name: 🇱🇻, server: 188.92.78.145, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna}
+  - {name: 🇺🇸 6, server: 104.200.131.245, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇸🇰, server: 185.76.8.212, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882, server: 104.18.7.138, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}}
+  - {name: wo1, server: 81.19.214.37, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇷🇴 2, server: 194.110.115.85, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
+  - {name: 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884, server: c-jp-dv1.ooxc.cc, port: 443, type: vmess, uuid: f299184b-19e0-41a4-9b4b-65fa8f0e691c, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-jp-dv1.ooxc.cc}}
+  - {name: 🇺🇸 7, server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb, server: 183.236.57.53, port: 10003, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
+  - {name: 🇺🇲 US_425, server: c-us3.ooxc.cc, port: 443, type: vmess, uuid: db5d1aa3-908b-44d1-be0a-4e6a8d4e4cda, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /jj, ws-headers: {Host: c-us3.ooxc.cc}}
+  - {name: 🇺🇲 US_416, server: 45.88.179.35, port: 42365, type: vmess, uuid: 085e6815-e476-411a-a9a6-4e5306a1b875, alterId: 0, cipher: auto, tls: false}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb, server: 183.236.57.53, port: 10001, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
+  - {name: 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb, server: 183.236.57.53, port: 10004, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: microsoft.com}}
+  - {name: wo3, server: 84.17.35.86, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb, server: 223.166.165.243, port: 10005, type: vmess, uuid: 1e90fb62-1b0d-48e7-aa1b-88604832ce8b, alterId: 1, cipher: auto, tls: false}
+  - {name: wo2, server: 45.89.173.205, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 🇺🇸 8, server: 45.89.173.205, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
+  - {name: 🇨🇳 CN_30, server: sg-ali-node1.wdnmd.pw, port: 50005, type: vmess, uuid: f3d9ebbc-4152-347b-8959-e185623aa069, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
+  - {name: 🇨🇳 CN_31, server: hk-azure-node6.wdnmd.pw, port: 50003, type: vmess, uuid: f3d9ebbc-4152-347b-8959-e185623aa069, alterId: 4, cipher: auto, tls: false, network: ws, ws-path: /v2ray, ws-headers: {Host: download.windowsupdate.com}}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇳 CN_31
-      - 🇨🇳 CN_30
+      - 科技lion
+      - 科技lion 2
+      - 科技lion 3
+      - 科技lion 4
+      - 科技lion 5
+      - 🇭🇰 HK_151
+      - 🏁
+      - 🇷🇺
       - 🇺🇸
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
-      - 🇺🇲 US_425
-      - 🇺🇲 US_416
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
-      - 🇺🇸 2
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
-      - 🇷🇴
-      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
-      - 🇱🇻
-      - 🇺🇸 3
-      - 🇸🇰
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
-      - 🇺🇸 4
-      - 🇩🇪
-      - Pool__12
-      - 🇸🇬 SG_1138
-      - 🇷🇴 2
-      - Pool__08
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇲 Pool_🇺🇸US_1257
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
-      - Pool__13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
-      - Pool__34
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
       - ""
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
-      - " 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
-      - 🇺🇲 US_1558
-      - Relay_ | 1.31Mb
-      - 🇺🇲 US_422
-      - 🇬🇧
-      - Pool__35
-      - Relay_ | 7.46Mb
-      - Relay_ |13.59Mb
-      - Pool__14
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
-      - 🇺🇸 7
-      - Relay_ |13.23Mb
-      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
-      - Pool__32
-      - 🇺🇸 8
-      - 🇭🇷
-      - 🇺🇲 US_446
-      - Relay_ |16.01Mb
+      - "| 6.85Mb"
+      - Pool__73
+      - "| 7.58Mb"
       - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb
       - 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb
       - Pool__33
-      - "| 7.58Mb"
-      - "| 6.85Mb"
-      - Pool__73
-      - 🇭🇰 HK_151
-      - 🏁
-      - 🇷🇺
-      - 🇺🇸 9
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
+      - Relay_ |16.01Mb
+      - 🇺🇲 US_446
+      - 🇭🇷
+      - 🇺🇸 2
+      - Relay_ |13.23Mb
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
+      - Pool__32
+      - 🇺🇸 3
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
+      - Relay_ | 7.46Mb
+      - Relay_ |13.59Mb
+      - 🇺🇲 US_422
+      - 🇬🇧
+      - Pool__35
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
+      - 🇺🇲 US_1558
+      - Relay_ | 1.31Mb
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
+      - " 2"
+      - Pool__13
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
+      - Pool__34
       - " 3"
+      - 🇺🇸 4
+      - 🇺🇲 Pool_🇺🇸US_1257
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
+      - Pool__08
+      - 🇺🇸 5
+      - 🇩🇪
+      - Pool__12
+      - 🇸🇬 SG_1138
+      - 🇷🇴
+      - w4
+      - 🇱🇻
+      - 🇺🇸 6
+      - 🇸🇰
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
+      - wo1
+      - 🇷🇴 2
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
+      - 🇺🇸 7
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
+      - 🇺🇲 US_425
+      - 🇺🇲 US_416
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
+      - wo3
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
+      - wo2
+      - 🇺🇸 8
+      - 🇨🇳 CN_30
+      - 🇨🇳 CN_31
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇳 CN_31
-      - 🇨🇳 CN_30
+      - 科技lion
+      - 科技lion 2
+      - 科技lion 3
+      - 科技lion 4
+      - 科技lion 5
+      - 🇭🇰 HK_151
+      - 🏁
+      - 🇷🇺
       - 🇺🇸
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
-      - 🇺🇲 US_425
-      - 🇺🇲 US_416
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
-      - 🇺🇸 2
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
-      - 🇷🇴
-      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
-      - 🇱🇻
-      - 🇺🇸 3
-      - 🇸🇰
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
-      - 🇺🇸 4
-      - 🇩🇪
-      - Pool__12
-      - 🇸🇬 SG_1138
-      - 🇷🇴 2
-      - Pool__08
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇲 Pool_🇺🇸US_1257
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
-      - Pool__13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
-      - Pool__34
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
       - ""
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
-      - " 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
-      - 🇺🇲 US_1558
-      - Relay_ | 1.31Mb
-      - 🇺🇲 US_422
-      - 🇬🇧
-      - Pool__35
-      - Relay_ | 7.46Mb
-      - Relay_ |13.59Mb
-      - Pool__14
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
-      - 🇺🇸 7
-      - Relay_ |13.23Mb
-      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
-      - Pool__32
-      - 🇺🇸 8
-      - 🇭🇷
-      - 🇺🇲 US_446
-      - Relay_ |16.01Mb
+      - "| 6.85Mb"
+      - Pool__73
+      - "| 7.58Mb"
       - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb
       - 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb
       - Pool__33
-      - "| 7.58Mb"
-      - "| 6.85Mb"
-      - Pool__73
-      - 🇭🇰 HK_151
-      - 🏁
-      - 🇷🇺
-      - 🇺🇸 9
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
+      - Relay_ |16.01Mb
+      - 🇺🇲 US_446
+      - 🇭🇷
+      - 🇺🇸 2
+      - Relay_ |13.23Mb
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
+      - Pool__32
+      - 🇺🇸 3
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
+      - Relay_ | 7.46Mb
+      - Relay_ |13.59Mb
+      - 🇺🇲 US_422
+      - 🇬🇧
+      - Pool__35
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
+      - 🇺🇲 US_1558
+      - Relay_ | 1.31Mb
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
+      - " 2"
+      - Pool__13
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
+      - Pool__34
       - " 3"
+      - 🇺🇸 4
+      - 🇺🇲 Pool_🇺🇸US_1257
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
+      - Pool__08
+      - 🇺🇸 5
+      - 🇩🇪
+      - Pool__12
+      - 🇸🇬 SG_1138
+      - 🇷🇴
+      - w4
+      - 🇱🇻
+      - 🇺🇸 6
+      - 🇸🇰
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
+      - wo1
+      - 🇷🇴 2
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
+      - 🇺🇸 7
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
+      - 🇺🇲 US_425
+      - 🇺🇲 US_416
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
+      - wo3
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
+      - wo2
+      - 🇺🇸 8
+      - 🇨🇳 CN_30
+      - 🇨🇳 CN_31
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇳 CN_31
-      - 🇨🇳 CN_30
+      - 科技lion
+      - 科技lion 2
+      - 科技lion 3
+      - 科技lion 4
+      - 科技lion 5
+      - 🇭🇰 HK_151
+      - 🏁
+      - 🇷🇺
       - 🇺🇸
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
-      - 🇺🇲 US_425
-      - 🇺🇲 US_416
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
-      - 🇺🇸 2
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
-      - 🇷🇴
-      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
-      - 🇱🇻
-      - 🇺🇸 3
-      - 🇸🇰
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
-      - 🇺🇸 4
-      - 🇩🇪
-      - Pool__12
-      - 🇸🇬 SG_1138
-      - 🇷🇴 2
-      - Pool__08
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇲 Pool_🇺🇸US_1257
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
-      - Pool__13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
-      - Pool__34
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
       - ""
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
-      - " 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
-      - 🇺🇲 US_1558
-      - Relay_ | 1.31Mb
-      - 🇺🇲 US_422
-      - 🇬🇧
-      - Pool__35
-      - Relay_ | 7.46Mb
-      - Relay_ |13.59Mb
-      - Pool__14
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
-      - 🇺🇸 7
-      - Relay_ |13.23Mb
-      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
-      - Pool__32
-      - 🇺🇸 8
-      - 🇭🇷
-      - 🇺🇲 US_446
-      - Relay_ |16.01Mb
+      - "| 6.85Mb"
+      - Pool__73
+      - "| 7.58Mb"
       - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb
       - 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb
       - Pool__33
-      - "| 7.58Mb"
-      - "| 6.85Mb"
-      - Pool__73
-      - 🇭🇰 HK_151
-      - 🏁
-      - 🇷🇺
-      - 🇺🇸 9
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
+      - Relay_ |16.01Mb
+      - 🇺🇲 US_446
+      - 🇭🇷
+      - 🇺🇸 2
+      - Relay_ |13.23Mb
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
+      - Pool__32
+      - 🇺🇸 3
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
+      - Relay_ | 7.46Mb
+      - Relay_ |13.59Mb
+      - 🇺🇲 US_422
+      - 🇬🇧
+      - Pool__35
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
+      - 🇺🇲 US_1558
+      - Relay_ | 1.31Mb
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
+      - " 2"
+      - Pool__13
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
+      - Pool__34
       - " 3"
+      - 🇺🇸 4
+      - 🇺🇲 Pool_🇺🇸US_1257
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
+      - Pool__08
+      - 🇺🇸 5
+      - 🇩🇪
+      - Pool__12
+      - 🇸🇬 SG_1138
+      - 🇷🇴
+      - w4
+      - 🇱🇻
+      - 🇺🇸 6
+      - 🇸🇰
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
+      - wo1
+      - 🇷🇴 2
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
+      - 🇺🇸 7
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
+      - 🇺🇲 US_425
+      - 🇺🇲 US_416
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
+      - wo3
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
+      - wo2
+      - 🇺🇸 8
+      - 🇨🇳 CN_30
+      - 🇨🇳 CN_31
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_31
-      - 🇨🇳 CN_30
+      - 科技lion
+      - 科技lion 2
+      - 科技lion 3
+      - 科技lion 4
+      - 科技lion 5
+      - 🇭🇰 HK_151
+      - 🏁
+      - 🇷🇺
       - 🇺🇸
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
-      - 🇺🇲 US_425
-      - 🇺🇲 US_416
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
-      - 🇺🇸 2
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
-      - 🇷🇴
-      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
-      - 🇱🇻
-      - 🇺🇸 3
-      - 🇸🇰
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
-      - 🇺🇸 4
-      - 🇩🇪
-      - Pool__12
-      - 🇸🇬 SG_1138
-      - 🇷🇴 2
-      - Pool__08
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇲 Pool_🇺🇸US_1257
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
-      - Pool__13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
-      - Pool__34
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
       - ""
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
-      - " 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
-      - 🇺🇲 US_1558
-      - Relay_ | 1.31Mb
-      - 🇺🇲 US_422
-      - 🇬🇧
-      - Pool__35
-      - Relay_ | 7.46Mb
-      - Relay_ |13.59Mb
-      - Pool__14
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
-      - 🇺🇸 7
-      - Relay_ |13.23Mb
-      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
-      - Pool__32
-      - 🇺🇸 8
-      - 🇭🇷
-      - 🇺🇲 US_446
-      - Relay_ |16.01Mb
+      - "| 6.85Mb"
+      - Pool__73
+      - "| 7.58Mb"
       - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb
       - 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb
       - Pool__33
-      - "| 7.58Mb"
-      - "| 6.85Mb"
-      - Pool__73
-      - 🇭🇰 HK_151
-      - 🏁
-      - 🇷🇺
-      - 🇺🇸 9
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
+      - Relay_ |16.01Mb
+      - 🇺🇲 US_446
+      - 🇭🇷
+      - 🇺🇸 2
+      - Relay_ |13.23Mb
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
+      - Pool__32
+      - 🇺🇸 3
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
+      - Relay_ | 7.46Mb
+      - Relay_ |13.59Mb
+      - 🇺🇲 US_422
+      - 🇬🇧
+      - Pool__35
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
+      - 🇺🇲 US_1558
+      - Relay_ | 1.31Mb
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
+      - " 2"
+      - Pool__13
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
+      - Pool__34
       - " 3"
+      - 🇺🇸 4
+      - 🇺🇲 Pool_🇺🇸US_1257
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
+      - Pool__08
+      - 🇺🇸 5
+      - 🇩🇪
+      - Pool__12
+      - 🇸🇬 SG_1138
+      - 🇷🇴
+      - w4
+      - 🇱🇻
+      - 🇺🇸 6
+      - 🇸🇰
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
+      - wo1
+      - 🇷🇴 2
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
+      - 🇺🇸 7
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
+      - 🇺🇲 US_425
+      - 🇺🇲 US_416
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
+      - wo3
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
+      - wo2
+      - 🇺🇸 8
+      - 🇨🇳 CN_30
+      - 🇨🇳 CN_31
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇳 CN_31
-      - 🇨🇳 CN_30
+      - 科技lion
+      - 科技lion 2
+      - 科技lion 3
+      - 科技lion 4
+      - 科技lion 5
+      - 🇭🇰 HK_151
+      - 🏁
+      - 🇷🇺
       - 🇺🇸
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
-      - 🇺🇲 US_425
-      - 🇺🇲 US_416
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
-      - 🇺🇸 2
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
-      - 🇷🇴
-      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
-      - 🇱🇻
-      - 🇺🇸 3
-      - 🇸🇰
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
-      - 🇺🇸 4
-      - 🇩🇪
-      - Pool__12
-      - 🇸🇬 SG_1138
-      - 🇷🇴 2
-      - Pool__08
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇲 Pool_🇺🇸US_1257
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
-      - Pool__13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
-      - Pool__34
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
       - ""
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
-      - " 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
-      - 🇺🇲 US_1558
-      - Relay_ | 1.31Mb
-      - 🇺🇲 US_422
-      - 🇬🇧
-      - Pool__35
-      - Relay_ | 7.46Mb
-      - Relay_ |13.59Mb
-      - Pool__14
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
-      - 🇺🇸 7
-      - Relay_ |13.23Mb
-      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
-      - Pool__32
-      - 🇺🇸 8
-      - 🇭🇷
-      - 🇺🇲 US_446
-      - Relay_ |16.01Mb
+      - "| 6.85Mb"
+      - Pool__73
+      - "| 7.58Mb"
       - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb
       - 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb
       - Pool__33
-      - "| 7.58Mb"
-      - "| 6.85Mb"
-      - Pool__73
-      - 🇭🇰 HK_151
-      - 🏁
-      - 🇷🇺
-      - 🇺🇸 9
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
+      - Relay_ |16.01Mb
+      - 🇺🇲 US_446
+      - 🇭🇷
+      - 🇺🇸 2
+      - Relay_ |13.23Mb
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
+      - Pool__32
+      - 🇺🇸 3
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
+      - Relay_ | 7.46Mb
+      - Relay_ |13.59Mb
+      - 🇺🇲 US_422
+      - 🇬🇧
+      - Pool__35
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
+      - 🇺🇲 US_1558
+      - Relay_ | 1.31Mb
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
+      - " 2"
+      - Pool__13
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
+      - Pool__34
       - " 3"
+      - 🇺🇸 4
+      - 🇺🇲 Pool_🇺🇸US_1257
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
+      - Pool__08
+      - 🇺🇸 5
+      - 🇩🇪
+      - Pool__12
+      - 🇸🇬 SG_1138
+      - 🇷🇴
+      - w4
+      - 🇱🇻
+      - 🇺🇸 6
+      - 🇸🇰
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
+      - wo1
+      - 🇷🇴 2
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
+      - 🇺🇸 7
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
+      - 🇺🇲 US_425
+      - 🇺🇲 US_416
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
+      - wo3
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
+      - wo2
+      - 🇺🇸 8
+      - 🇨🇳 CN_30
+      - 🇨🇳 CN_31
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇳 CN_31
-      - 🇨🇳 CN_30
+      - 科技lion
+      - 科技lion 2
+      - 科技lion 3
+      - 科技lion 4
+      - 科技lion 5
+      - 🇭🇰 HK_151
+      - 🏁
+      - 🇷🇺
       - 🇺🇸
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
-      - 🇺🇲 US_425
-      - 🇺🇲 US_416
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
-      - 🇺🇸 2
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
-      - 🇷🇴
-      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
-      - 🇱🇻
-      - 🇺🇸 3
-      - 🇸🇰
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
-      - 🇺🇸 4
-      - 🇩🇪
-      - Pool__12
-      - 🇸🇬 SG_1138
-      - 🇷🇴 2
-      - Pool__08
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇲 Pool_🇺🇸US_1257
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
-      - Pool__13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
-      - Pool__34
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
       - ""
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
-      - " 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
-      - 🇺🇲 US_1558
-      - Relay_ | 1.31Mb
-      - 🇺🇲 US_422
-      - 🇬🇧
-      - Pool__35
-      - Relay_ | 7.46Mb
-      - Relay_ |13.59Mb
-      - Pool__14
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
-      - 🇺🇸 7
-      - Relay_ |13.23Mb
-      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
-      - Pool__32
-      - 🇺🇸 8
-      - 🇭🇷
-      - 🇺🇲 US_446
-      - Relay_ |16.01Mb
+      - "| 6.85Mb"
+      - Pool__73
+      - "| 7.58Mb"
       - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb
       - 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb
       - Pool__33
-      - "| 7.58Mb"
-      - "| 6.85Mb"
-      - Pool__73
-      - 🇭🇰 HK_151
-      - 🏁
-      - 🇷🇺
-      - 🇺🇸 9
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
+      - Relay_ |16.01Mb
+      - 🇺🇲 US_446
+      - 🇭🇷
+      - 🇺🇸 2
+      - Relay_ |13.23Mb
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
+      - Pool__32
+      - 🇺🇸 3
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
+      - Relay_ | 7.46Mb
+      - Relay_ |13.59Mb
+      - 🇺🇲 US_422
+      - 🇬🇧
+      - Pool__35
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
+      - 🇺🇲 US_1558
+      - Relay_ | 1.31Mb
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
+      - " 2"
+      - Pool__13
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
+      - Pool__34
       - " 3"
+      - 🇺🇸 4
+      - 🇺🇲 Pool_🇺🇸US_1257
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
+      - Pool__08
+      - 🇺🇸 5
+      - 🇩🇪
+      - Pool__12
+      - 🇸🇬 SG_1138
+      - 🇷🇴
+      - w4
+      - 🇱🇻
+      - 🇺🇸 6
+      - 🇸🇰
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
+      - wo1
+      - 🇷🇴 2
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
+      - 🇺🇸 7
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
+      - 🇺🇲 US_425
+      - 🇺🇲 US_416
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
+      - wo3
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
+      - wo2
+      - 🇺🇸 8
+      - 🇨🇳 CN_30
+      - 🇨🇳 CN_31
   - name: 📢 谷歌FCM
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_31
-      - 🇨🇳 CN_30
+      - 科技lion
+      - 科技lion 2
+      - 科技lion 3
+      - 科技lion 4
+      - 科技lion 5
+      - 🇭🇰 HK_151
+      - 🏁
+      - 🇷🇺
       - 🇺🇸
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
-      - 🇺🇲 US_425
-      - 🇺🇲 US_416
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
-      - 🇺🇸 2
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
-      - 🇷🇴
-      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
-      - 🇱🇻
-      - 🇺🇸 3
-      - 🇸🇰
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
-      - 🇺🇸 4
-      - 🇩🇪
-      - Pool__12
-      - 🇸🇬 SG_1138
-      - 🇷🇴 2
-      - Pool__08
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇲 Pool_🇺🇸US_1257
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
-      - Pool__13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
-      - Pool__34
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
       - ""
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
-      - " 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
-      - 🇺🇲 US_1558
-      - Relay_ | 1.31Mb
-      - 🇺🇲 US_422
-      - 🇬🇧
-      - Pool__35
-      - Relay_ | 7.46Mb
-      - Relay_ |13.59Mb
-      - Pool__14
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
-      - 🇺🇸 7
-      - Relay_ |13.23Mb
-      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
-      - Pool__32
-      - 🇺🇸 8
-      - 🇭🇷
-      - 🇺🇲 US_446
-      - Relay_ |16.01Mb
+      - "| 6.85Mb"
+      - Pool__73
+      - "| 7.58Mb"
       - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb
       - 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb
       - Pool__33
-      - "| 7.58Mb"
-      - "| 6.85Mb"
-      - Pool__73
-      - 🇭🇰 HK_151
-      - 🏁
-      - 🇷🇺
-      - 🇺🇸 9
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
+      - Relay_ |16.01Mb
+      - 🇺🇲 US_446
+      - 🇭🇷
+      - 🇺🇸 2
+      - Relay_ |13.23Mb
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
+      - Pool__32
+      - 🇺🇸 3
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
+      - Relay_ | 7.46Mb
+      - Relay_ |13.59Mb
+      - 🇺🇲 US_422
+      - 🇬🇧
+      - Pool__35
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
+      - 🇺🇲 US_1558
+      - Relay_ | 1.31Mb
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
+      - " 2"
+      - Pool__13
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
+      - Pool__34
       - " 3"
+      - 🇺🇸 4
+      - 🇺🇲 Pool_🇺🇸US_1257
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
+      - Pool__08
+      - 🇺🇸 5
+      - 🇩🇪
+      - Pool__12
+      - 🇸🇬 SG_1138
+      - 🇷🇴
+      - w4
+      - 🇱🇻
+      - 🇺🇸 6
+      - 🇸🇰
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
+      - wo1
+      - 🇷🇴 2
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
+      - 🇺🇸 7
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
+      - 🇺🇲 US_425
+      - 🇺🇲 US_416
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
+      - wo3
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
+      - wo2
+      - 🇺🇸 8
+      - 🇨🇳 CN_30
+      - 🇨🇳 CN_31
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -570,69 +626,76 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇳 CN_31
-      - 🇨🇳 CN_30
+      - 科技lion
+      - 科技lion 2
+      - 科技lion 3
+      - 科技lion 4
+      - 科技lion 5
+      - 🇭🇰 HK_151
+      - 🏁
+      - 🇷🇺
       - 🇺🇸
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
-      - 🇺🇲 US_425
-      - 🇺🇲 US_416
-      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
-      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
-      - 🇺🇸 2
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
-      - 🇷🇴
-      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
-      - 🇱🇻
-      - 🇺🇸 3
-      - 🇸🇰
-      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
-      - 🇺🇸 4
-      - 🇩🇪
-      - Pool__12
-      - 🇸🇬 SG_1138
-      - 🇷🇴 2
-      - Pool__08
-      - 🇺🇸 5
-      - 🇺🇸 6
-      - 🇺🇲 Pool_🇺🇸US_1257
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
-      - Pool__13
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
-      - Pool__34
+      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
       - ""
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
-      - " 2"
-      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
-      - 🇺🇲 US_1558
-      - Relay_ | 1.31Mb
-      - 🇺🇲 US_422
-      - 🇬🇧
-      - Pool__35
-      - Relay_ | 7.46Mb
-      - Relay_ |13.59Mb
-      - Pool__14
-      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
-      - 🇺🇸 7
-      - Relay_ |13.23Mb
-      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
-      - Pool__32
-      - 🇺🇸 8
-      - 🇭🇷
-      - 🇺🇲 US_446
-      - Relay_ |16.01Mb
+      - "| 6.85Mb"
+      - Pool__73
+      - "| 7.58Mb"
       - 🇺🇲 Relay_🇺🇸US-🇺🇸US_2890
       - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_819 | 6.10Mb
       - 🇩🇪 Relay_🇨🇳CN-🇩🇪DE_816 | 6.43Mb
       - Pool__33
-      - "| 7.58Mb"
-      - "| 6.85Mb"
-      - Pool__73
-      - 🇭🇰 HK_151
-      - 🏁
-      - 🇷🇺
-      - 🇺🇸 9
-      - 🇯🇵 Relay_🇯🇵JP-🇯🇵JP_842
+      - Relay_ |16.01Mb
+      - 🇺🇲 US_446
+      - 🇭🇷
+      - 🇺🇸 2
+      - Relay_ |13.23Mb
+      - 🇰🇷 Relay_🇨🇳CN-🇰🇷KR_815 | 7.63Mb
+      - Pool__32
+      - 🇺🇸 3
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1556
+      - Relay_ | 7.46Mb
+      - Relay_ |13.59Mb
+      - 🇺🇲 US_422
+      - 🇬🇧
+      - Pool__35
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_820 | 2.23Mb
+      - 🇺🇲 US_1558
+      - Relay_ | 1.31Mb
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1557
+      - " 2"
+      - Pool__13
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1567
+      - Pool__34
       - " 3"
+      - 🇺🇸 4
+      - 🇺🇲 Pool_🇺🇸US_1257
+      - 🇺🇲 Relay_🇺🇸US-🇺🇸US_1551
+      - Pool__08
+      - 🇺🇸 5
+      - 🇩🇪
+      - Pool__12
+      - 🇸🇬 SG_1138
+      - 🇷🇴
+      - w4
+      - 🇱🇻
+      - 🇺🇸 6
+      - 🇸🇰
+      - 🇩🇪 Relay_🇺🇸US-🇩🇪DE_2882
+      - wo1
+      - 🇷🇴 2
+      - 🇯🇵 Relay_🇺🇸US-🇯🇵JP_2884
+      - 🇺🇸 7
+      - 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_821 | 3.75Mb
+      - 🇺🇲 US_425
+      - 🇺🇲 US_416
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_823 | 2.15Mb
+      - 🇺🇲 Relay_🇨🇳CN-🇺🇸US_822 | 7.48Mb
+      - wo3
+      - 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_817 | 7.42Mb
+      - wo2
+      - 🇺🇸 8
+      - 🇨🇳 CN_30
+      - 🇨🇳 CN_31
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
